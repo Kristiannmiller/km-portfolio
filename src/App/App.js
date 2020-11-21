@@ -13,7 +13,11 @@ function App() {
   return (
     <BrowserRouter>
       <header className="header">
-        <img title="Kristi Miller Logo" alt ="Kristi Miller Logo" src={logo} className="logo"/>
+        <Route>
+          <NavLink id="homeNav" className="homeNav" to="/">
+            <img title="Kristi Miller Logo" alt ="Kristi Miller Logo" src={logo} className="logo"/>
+          </NavLink>
+        </Route>
         <section className="navigationWrap">
           <Route>
             <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/">
