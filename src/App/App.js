@@ -37,13 +37,13 @@ function App() {
         </section>
         <section className="socialWrap">
           <a href="https://github.com/Kristiannmiller">
-            <img className="socialLogo" src={github}/>
+            <img className="socialLogo" src={github} alt="Click to visit my GitHub page"/>
           </a>
           <a href="https://www.linkedin.com/in/kristiannmiller/">
-            <img className="socialLogo" src={linkedin}/>
+            <img className="socialLogo" src={linkedin} alt="Click to visit my LinkedIn page"/>
           </a>
           <a href="https://alumni.turing.io/alumni/kristi-miller">
-            <img className="socialLogo" src={turing}/>
+            <img className="socialLogo" src={turing} alt="Click to visit my Turing portfolio"/>
           </a>
         </section>
       </header>
