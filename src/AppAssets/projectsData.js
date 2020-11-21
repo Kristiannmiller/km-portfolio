@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
   name: "Jurassic Tac Toe",
   repo: "https://github.com/Kristiannmiller/km-tic-tac-toe",
@@ -40,3 +40,4 @@ export const projects = [
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/TTAppTour.gif"
 }
 ]
+export default projects
