@@ -1,0 +1,45 @@
+.cardTitle {
+  font-size: 3em;
+  color: #B64E3E;
+  background-color: none;
+  margin: 1vh;
+}
+.cardWrap {
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.imageWrap {
+  width: 40vw;
+  height: 90vh;
+  padding: 1em;
+  justify-content: flex-start;
+}
+.projectLinks {
+  display: block;
+}
+.gif {
+  padding-bottom: 1em;
+}
+.card {
+  background-color: rgba(245, 245, 245, 0.85);
+  height: 90vh;
+  width: 100vw;
+  padding: 0;
+  border-top: 2px solid #211e1c;
+  display: inline-flex;
+}
+.infoWrap {
+  width: 50vw;
+  height: 80vh;
+  overflow: scroll;
+  padding: 1em;
+  margin: 2vh;
+  background-color: rgba(245, 245, 245, 0.75);
+  border: 1px solid #211e1c;
+  border-radius: 10px;
+}
