@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
+  <a href="https://github.com/Kristiannmiller/km-portfolio">
+    <img src="src/Assets/Intro.gif" alt="moving image of application in use" width="600">
+  </a>
+  <h3 align="center">Kristi Miller Portfolio</h3>
+  <p align="center">
+    Designer // Front-End Developer // Photographer
+    <br />
+    <a href="https://github.com/Kristiannmiller/km-portfolio"><strong>Repo Link</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
 
-## Available Scripts
+This project is designed to be a visual representation of my Front-End development, my design skills, and my photography skills all within one link.
 
-In the project directory, you can run:
+### Built With
+* JavaScript
+* CSS/HTML
+* React
+* React Router
+* Jest
+* Babel
 
-### `npm start`
+### Installation
+In your terminal:
+1. Clone the repo-
+`git@github.com:Kristiannmiller/km-portfolio.git`
+2. Install NPM packages- `npm install`
+3. Start application- `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Where it began
+<img src="src/Assets/wireframe.png" alt="early wireframe design of portfolio site" width="600">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
+#### WORK VIEW
 
-### `npm test`
+The first page the user sees is the Work View that displays projects that can be clicked on to view more information and open the repo/deployed site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="src/Assets/WorkView.png" alt="Portfolio app landing page view" width="600">
 
-### `npm run build`
+#### PROJECT VIEW
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Project View showcases a specific project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="src/Assets/ProjectView.gif" alt="Protfolio app project view" width="600">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### CAREER VIEW
 
-### `npm run eject`
+The Career View will display an extended resume including more information on my work history, a career vision statement, and some other attributes and hobbies.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img src="src/Assets/CareerView.png" alt="Portfolio Career View" width="600">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### PHOTO VIEW
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The Photo View will showcase my previous work as a business owner and photographer ad how it pertains to my future role in the tech industry. It will also provide links to my photography pages.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="src/Assets/PhotoView.gif" alt="Portfolio Photo View" width="600">
 
-## Learn More
+## Roadmap
+The total build time allotted for this project is approximately 5 days. Future features contemplated by the developer include the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Future feature 1
+* Future feature 2
+* Future feature 3
+* Future feature 4
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+See the [open issues](https://github.com/Kristiannmiller/km-portfolio/issues) for a list of proposed features (and known issues).
 
-### Code Splitting
+## Contact
+[Kristi Miller - Developer](https://github.com/Kristiannmiller)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Project Link: [Lyrical Lies](https://github.com/Kristiannmiller/km-portfolio)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
