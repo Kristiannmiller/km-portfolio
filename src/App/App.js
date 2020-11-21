@@ -20,7 +20,7 @@ function App() {
         </Route>
         <section className="navigationWrap">
           <Route>
-            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/">
+            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/home">
               Projects
             </NavLink>
           </Route>
