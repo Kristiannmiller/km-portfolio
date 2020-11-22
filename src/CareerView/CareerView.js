@@ -5,7 +5,7 @@ import React from 'react';
 
 const CareerView = () => {
   return (
-    <section className="careerWrap">
+    <section data-testid="careerWrap" className="careerWrap">
       <article className="introWrap">
         <h1 className="bigIntro" id="workIntro">I am a creative front-end developer based in Denver. Currently looking to join an innovative and visionary team.</h1>
         <h2 className="scrollPrompt">FIND OUT MORE ↓</h2>

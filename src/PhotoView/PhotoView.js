@@ -5,7 +5,7 @@ import React from 'react';
 
 const PhotoView = () => {
   return (
-    <section className="photoWrap">
+    <section data-testid="photoWrap" className="photoWrap">
       <article className="introWrap">
         <h1 className="bigIntro" id="workIntro">Photography and technology have always gone hand-in-hand throughout my career.
         </h1>
