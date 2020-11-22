@@ -10,13 +10,13 @@ const projects = [
   developers: "Kristi Miller",
   short_des: "A tic-tac-toe game with Jurassic park inspirations",
   long_des: "Like normal tic tac toe, but with a Jurassic Park twist. This was my initial end-of-mod project for Turing School of Software and Design's Front-End Engineering program. Utilizing my newfound knowledge of Vanilla JavaScript, css, html, and dom manipulation (not to mention a neverending love for Adobe Photoshop), I created this application in 10 days after only 5 weeks of education. A goal of mine was to make the application responsive in mobile views. The goal was met, and the end result was regarded as a high understanding of the subject matter being evaluated.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewScreenshot.png",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
   },
   {
   name: "Rancid Tomatillos",
   repo: "https://github.com/Kristiannmiller/rancid-tomatillos-km-am",
-  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+  deploy: "https://rancid-tomatillos-km-am.herokuapp.com/",
   status: "Work In Progress",
   tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, Express",
   challenge: "Create a React application from scratch within the initial week of introduction to React",
@@ -24,7 +24,7 @@ const projects = [
   developers: "Kristi Miller, Ashley McDonald",
   short_des: "A movie rating app",
   long_des: "Movie rating with a bit of attitude. Rancid Tomatillos allows users to view movie data fetched from an API, and rate movies or leave comments on different movies of their choice once signed in. The learning goals of this project included cementing fundamental concepts of React including architecting a React application from scratch, implementing class and functional components and utilizing React Router for path transitions and displays. Robust unit and integration testing was also implemented for each component utilizing the Jest testing suite.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/rancid-tomatillos-km-am/main/src/MovieView.png",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/rancid-tomatillos-km-am/main/src/wireframe.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/rancid-tomatillos-km-am/main/src/RTJourney1.gif"
   },
   {
@@ -38,13 +38,13 @@ const projects = [
   developers: "Kristi Miller",
   short_des: "A misheard lyrics application for the lyrically challenged people of the world.",
   long_des: "Lyrical lies is made for the lyrically challenged people of the world. The people who belt out songs with confidence, but never actually know the lyrics finally have a place to confess their lyrical transgressions. A user can use the app to search for the song they know they sing the wrong lyrics to. A user can then anonymously post their misheard lyric for the world to see and laugh at mercilessly. The project focuses on key concepts including React, Router, and Asyncronous JavaScript. Robust unit and integration testing are also implemented for each component utilizing the Jest testing suite.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/lyrical-lies/main/src/Assets/LyricsView.png",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/lyrical-lies/main/src/Assets/wireframe.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/lyrical-lies/main/src/Assets/Intro.gif"
   },
   {
   name: "AHOY!",
   repo: "https://github.com/Kristiannmiller/km-Travel-Tracker",
-  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+  deploy: "https://kristiannmiller.github.io/km-Travel-Tracker",
   status: "Work in Progress",
   tools: "Node.js, JavaScript, Mocha, Chai, Webpack",
   challenge: "Strict use of only Vanilla JavaScript(ES6) and array iterators (no for loops) to display information.",
@@ -52,7 +52,7 @@ const projects = [
   developers: "Kristi Miller",
   short_des: "A travel tracker and vacation price estimator",
   long_des: "A pirate inspired dream vacation booking application. An application to manage and track different trips for users. Implemented with ES6 syntax and exclusive use of array-prototype methods whenever iterations need to be performed. This application uses Object Oriented Programming to drive the design of the app and the code.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/TTTripsView.png",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/wireframe.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/TTAppTour.gif"
 }
 ]
