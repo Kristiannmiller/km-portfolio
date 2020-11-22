@@ -57,7 +57,8 @@ instructional video production and filming, client research, customer service, p
       <section className="cardWrap" style={{backgroundImage: 'url(' + bear + ')' }}>
         <article className="card">
         <h1 className="title">Why Web Development?</h1>
-        <h2 className="about">I am the daughter of a logically brained, computer obsessed father, and his whimsical home decorating partner. It is this mix of characteristics that gifted me with a deeprooted love for the logical details of beautiful design. I was born with a camera in one hand a floppy disc in the other (80's babies represent). Merging my background in photography and marketing with what I have learned as a developer at Turing, I plan to help websites improve their overall appearance. My change in careers from a photographer to a front-end developer is one that I plan to fill with imagery and creativity.</h2>
+        <h2 className="about">I am the daughter of a logically brained, computer saavy father, and his whimsical home decorating partner. It is this mix of characteristics that gifted me with a deeprooted love for the logical details of beautiful design.</h2>
+        <h2 className="about">I was born with a camera in one hand a floppy disc in the other (80's babies represent). Merging my background in photography and marketing with what I have learned as a developer at Turing, I plan to help websites improve their overall appearance. My change in careers from a photographer to a front-end developer is one that I plan to fill with imagery and creativity.</h2>
         </article>
       </section>
     </section>
