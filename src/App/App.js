@@ -20,7 +20,7 @@ function App() {
         </Route>
         <section className="navigationWrap">
           <Route>
-            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/home">
+            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/">
               Projects
             </NavLink>
           </Route>
@@ -55,7 +55,7 @@ function App() {
           <Route path='/Photo'>
             <PhotoView />
           </Route>
-          <Route exactPath='/'>
+          <Route exact path='/'>
             <WorkView />
           </Route>
         </Switch>
