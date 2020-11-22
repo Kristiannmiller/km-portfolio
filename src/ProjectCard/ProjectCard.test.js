@@ -1,10 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import projects from '../AppAssets/projectsData.js';
 import ProjectCard from './ProjectCard';
 
 
-describe('PhotoView', () => {
+describe('ProjectView', () => {
   describe('Unit Tests', () => {
     it('Should render a ProjectCard', () => {
       render (
@@ -81,6 +80,5 @@ describe('PhotoView', () => {
       expect(projectPurpose).toBeInTheDocument();
       expect(projectTeam).toBeInTheDocument();
     })
-
   })
 })
