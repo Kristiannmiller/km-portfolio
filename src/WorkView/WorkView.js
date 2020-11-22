@@ -14,7 +14,7 @@ const WorkView = () => {
   return (
     <section data-testid="workWrap" className="workWrap">
       <article className="introWrap">
-        <h1 className="bigIntro" id="workIntro">Kristi Miller is a visually inspired front-end
+        <h1 data-testid="workIntro" className="bigIntro" id="workIntro">Kristi Miller is a visually inspired front-end
         developer with a background in photojournalism. Based in Denver, Colorado.
         </h1>
         <h2 className="scrollPrompt">WORK SAMPLES ↓</h2>
