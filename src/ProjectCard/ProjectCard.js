@@ -4,7 +4,7 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
   return (
-    <section className="cardWrap" style={{backgroundImage: 'url(' + project.photo + ')' }}>
+    <section data-testid="cardWrap" className="cardWrap" style={{backgroundImage: 'url(' + project.photo + ')' }}>
       <article className="card">
         <section className="infoWrap">
           <h2 className="cardTitle">{project.name}</h2>
