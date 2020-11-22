@@ -1,5 +1,5 @@
 * {
-  background-color: #f5f5f5;
+
 }
 .logo {
   height: 8vh;
@@ -12,6 +12,7 @@
   text-align: center;
   border-bottom: 2px solid #211e1c;
   align-items: flex-end;
+  background-color: #f5f5f5;
 }
 .nav {
   padding: 3vh;
@@ -20,6 +21,9 @@
   color: #211e1c;
   text-align: center;
   display: inline-flex;
+}
+.activeNav {
+  color: #b64e3e;
 }
 .navigationWrap {
   text-align: center;
@@ -37,6 +41,7 @@
   flex: auto;
 }
 main {
-  height: 80vh;
+  height: 87vh;
+  background-color: #f5f5f5;
   overflow: scroll;
 }
