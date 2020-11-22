@@ -12,10 +12,12 @@ const WorkView = () => {
   })
   return (
     <section className="workWrap">
-      <h1 className="bigIntro" id="workIntro">Kristi Miller is a visually inspired front-end
-      developer with a background in photojournalism. Based in Denver, Colorado.
-      </h1>
-      <h2 className="scrollPrompt">WORK SAMPLES ↓</h2>
+      <article className="introWrap">
+        <h1 className="bigIntro" id="workIntro">Kristi Miller is a visually inspired front-end
+        developer with a background in photojournalism. Based in Denver, Colorado.
+        </h1>
+        <h2 className="scrollPrompt">WORK SAMPLES ↓</h2>
+      </article>
       <section className="projectCardWrap">
         {projectCards}
       </section>
