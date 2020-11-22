@@ -3,6 +3,9 @@
   padding: 1vw 5vw 0vw 5vw;
   color: #B64E3E;
 }
+.introWrap {
+  height: 90vh;
+}
 .scrollPrompt {
   font-size: 2em;
   padding: 0vw 5vw 5vw 5vw;
