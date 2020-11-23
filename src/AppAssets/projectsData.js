@@ -42,18 +42,32 @@ const projects = [
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/TTAppTour.gif"
 },
 {
-name: "Jurassic Tac Toe",
-repo: "https://github.com/Kristiannmiller/km-tic-tac-toe",
-deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
-status: "Work Complete",
-tools: "Vanilla JavaScript, CSS, HTML",
-challenge: "Create a game using entirely Vanilla JavaScript after only 5 weeks of education",
-purpose: "Turing School of Software and Design Module 1 Final Project",
-developers: "Kristi Miller",
-short_des: "A tic-tac-toe game with Jurassic park inspirations",
-long_des: "Like normal tic tac toe, but with a Jurassic Park twist. This was my initial end-of-mod project for Turing School of Software and Design's Front-End Engineering program. Utilizing my newfound knowledge of Vanilla JavaScript, css, html, and dom manipulation (not to mention a neverending love for Adobe Photoshop), I created this application in 10 days after only 5 weeks of education. A goal of mine was to make the application responsive in mobile views. The goal was met, and the end result was regarded as a high understanding of the subject matter being evaluated.",
-photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
-gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
+  name: "Jurassic Tac Toe",
+  repo: "https://github.com/Kristiannmiller/km-tic-tac-toe",
+  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+  status: "Work Complete",
+  tools: "Vanilla JavaScript, CSS, HTML",
+  challenge: "Create a game using entirely Vanilla JavaScript after only 5 weeks of education",
+  purpose: "Turing School of Software and Design Module 1 Final Project",
+  developers: "Kristi Miller",
+  short_des: "A tic-tac-toe game with Jurassic park inspirations",
+  long_des: "Like normal tic tac toe, but with a Jurassic Park twist. This was my initial end-of-mod project for Turing School of Software and Design's Front-End Engineering program. Utilizing my newfound knowledge of Vanilla JavaScript, css, html, and dom manipulation (not to mention a neverending love for Adobe Photoshop), I created this application in 10 days after only 5 weeks of education. A goal of mine was to make the application responsive in mobile views. The goal was met, and the end result was regarded as a high understanding of the subject matter being evaluated.",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
+  gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
+},
+{
+  name: "Portfolio Site",
+  repo: "https://github.com/Kristiannmiller/km-portfolio",
+  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+  status: "Work In Progress",
+  tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, CSS Animations",
+  challenge: "Create a portfolio site with a focus on UI/UX design and personal branding",
+  purpose: "Simplify networking by being able to provide a single link to showcase my work",
+  developers: "Kristi Miller",
+  short_des: "A portfolio site",
+  long_des: "SURPRISE! This portfolio is also a current project that is constantly being updated. My goal with this site is to provide future/potential employers and contacts with up-to-date samples of my work and career aspirations. With UI/UX as a main focus, I built this app with React and kept the codebase relatively simple in order to be able to update quickly when needed without worrying about breaking changes. The site itself is a reflection of my personality and style. Feel free to contact me if anything on this site needs attention (sometimes we all need a little extra attention).",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
+  gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
 }
 ]
 export default projects
