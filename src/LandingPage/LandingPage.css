@@ -1,0 +1,24 @@
+.landingWrap {
+  text-align: center;
+  height: 80vh;
+}
+.landingLogo {
+  width: 75vw;
+  opacity: 50%;
+  padding: 5vw 5vw .5vw 5vw;
+}
+.introduction {
+  width: 70vw;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 2.5em;
+  color: #B64E3E;
+  font-weight: bold;
+}
+.instructions {
+  padding-top: 2em;
+  font-size: 1.5em;
+  margin: .5vw 20vw;
+  color: #211e1c;
+}
