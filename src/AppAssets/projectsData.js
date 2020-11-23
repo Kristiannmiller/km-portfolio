@@ -1,31 +1,17 @@
 const projects = [
   {
-  name: "Jurassic Tac Toe",
-  repo: "https://github.com/Kristiannmiller/km-tic-tac-toe",
-  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
-  status: "Work Complete",
-  tools: "Vanilla JavaScript, CSS, HTML",
-  challenge: "Create a game using entirely Vanilla JavaScript after only 5 weeks of education",
-  purpose: "Turing School of Software and Design Module 1 Final Project",
-  developers: "Kristi Miller",
-  short_des: "A tic-tac-toe game with Jurassic park inspirations",
-  long_des: "Like normal tic tac toe, but with a Jurassic Park twist. This was my initial end-of-mod project for Turing School of Software and Design's Front-End Engineering program. Utilizing my newfound knowledge of Vanilla JavaScript, css, html, and dom manipulation (not to mention a neverending love for Adobe Photoshop), I created this application in 10 days after only 5 weeks of education. A goal of mine was to make the application responsive in mobile views. The goal was met, and the end result was regarded as a high understanding of the subject matter being evaluated.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
-  gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
-  },
-  {
-  name: "Rancid Tomatillos",
-  repo: "https://github.com/Kristiannmiller/rancid-tomatillos-km-am",
-  deploy: "https://rancid-tomatillos-km-am.herokuapp.com/",
+  name: "Rume",
+  repo: "https://github.com/nathanielmillard/rume",
+  deploy: "https://nathanielmillard.github.io/rume/",
   status: "Work In Progress",
-  tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, Express",
-  challenge: "Create a React application from scratch within the initial week of introduction to React",
-  purpose: "Turing School of Software and Design Module 3 Initial Project",
-  developers: "Kristi Miller, Ashley McDonald",
-  short_des: "A movie rating app",
-  long_des: "Movie rating with a bit of attitude. Rancid Tomatillos allows users to view movie data fetched from an API, and rate movies or leave comments on different movies of their choice once signed in. The learning goals of this project included cementing fundamental concepts of React including architecting a React application from scratch, implementing class and functional components and utilizing React Router for path transitions and displays. Robust unit and integration testing was also implemented for each component utilizing the Jest testing suite.",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/rancid-tomatillos-km-am/main/src/wireframe.png",
-  gif: "https://raw.githubusercontent.com/Kristiannmiller/rancid-tomatillos-km-am/main/src/RTJourney1.gif"
+  tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, Express, Green Sock Animations, Styled Components",
+  challenge: "Create a React application utilizing Green Sock Animations and Styled Components for the first time",
+  purpose: "Turing School of Software and Design Module 3 team Project",
+  developers: "Kristi Miller, Nathaniel Millard, Brigette Doelp",
+  short_des: "An emotion-tracking ruminating experience",
+  long_des: "An emotional experience application. Rume was born of an interest in creating a design specific app that helped an already emotionally conscious user do more than simply 'get past' or deescalate feelings, and rather create a 'space' that validates a user where they are at. We at Rume believe that it's just as important to take time and feel what you are feeling, as it is to know how to guide yourself back to peace and calm. A user can enter the site, choose an emotion to best suit their current state, and choose between journaling, feeling (ruminating through animation and sound), or follow a breathing exercise.",
+  photo: "https://user-images.githubusercontent.com/65047537/100013665-6fda8880-2d92-11eb-8077-61d34a983c3c.png",
+  gif: "https://raw.githubusercontent.com/nathanielmillard/rume/main/src/Assets/introGif.gif"
   },
   {
   name: "Lyrical Lies",
@@ -44,7 +30,7 @@ const projects = [
   {
   name: "AHOY!",
   repo: "https://github.com/Kristiannmiller/km-Travel-Tracker",
-  deploy: "https://kristiannmiller.github.io/km-Travel-Tracker",
+  deploy: "https://kristiannmiller.github.io/km-Travel-Tracker/",
   status: "Work in Progress",
   tools: "Node.js, JavaScript, Mocha, Chai, Webpack",
   challenge: "Strict use of only Vanilla JavaScript(ES6) and array iterators (no for loops) to display information.",
@@ -54,6 +40,20 @@ const projects = [
   long_des: "A pirate inspired dream vacation booking application. An application to manage and track different trips for users. Implemented with ES6 syntax and exclusive use of array-prototype methods whenever iterations need to be performed. This application uses Object Oriented Programming to drive the design of the app and the code.",
   photo: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/wireframe.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-Travel-Tracker/main/src/images/TTAppTour.gif"
+},
+{
+name: "Jurassic Tac Toe",
+repo: "https://github.com/Kristiannmiller/km-tic-tac-toe",
+deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+status: "Work Complete",
+tools: "Vanilla JavaScript, CSS, HTML",
+challenge: "Create a game using entirely Vanilla JavaScript after only 5 weeks of education",
+purpose: "Turing School of Software and Design Module 1 Final Project",
+developers: "Kristi Miller",
+short_des: "A tic-tac-toe game with Jurassic park inspirations",
+long_des: "Like normal tic tac toe, but with a Jurassic Park twist. This was my initial end-of-mod project for Turing School of Software and Design's Front-End Engineering program. Utilizing my newfound knowledge of Vanilla JavaScript, css, html, and dom manipulation (not to mention a neverending love for Adobe Photoshop), I created this application in 10 days after only 5 weeks of education. A goal of mine was to make the application responsive in mobile views. The goal was met, and the end result was regarded as a high understanding of the subject matter being evaluated.",
+photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
+gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
 }
 ]
 export default projects
