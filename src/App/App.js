@@ -8,6 +8,8 @@ import React from 'react';
 import WorkView from '../WorkView/WorkView.js'
 import CareerView from '../CareerView/CareerView.js'
 import PhotoView from '../PhotoView/PhotoView.js'
+import LandingPage from '../LandingPage/LandingPage.js'
+
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
         </Route>
         <section className="navigationWrap">
           <Route>
-            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/">
+            <NavLink id="workNav" className="nav" activeClassName="activeNav" to="/projects">
               Projects
             </NavLink>
           </Route>
@@ -55,8 +57,11 @@ function App() {
           <Route path='/Photo'>
             <PhotoView />
           </Route>
-          <Route exact path='/'>
+          <Route exact path='/projects'>
             <WorkView />
+          </Route>
+          <Route exact path='/'>
+            <LandingPage />
           </Route>
         </Switch>
       </main>
