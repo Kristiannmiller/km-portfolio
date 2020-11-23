@@ -9,6 +9,8 @@ import WorkView from '../WorkView/WorkView.js'
 import CareerView from '../CareerView/CareerView.js'
 import PhotoView from '../PhotoView/PhotoView.js'
 import LandingPage from '../LandingPage/LandingPage.js'
+import ContactView from '../ContactView/ContactView.js'
+
 
 
 function App() {
@@ -36,6 +38,11 @@ function App() {
               Photography
             </NavLink>
           </Route>
+          <Route>
+            <NavLink title="Navigate to Contact page" id="contactNav" className="nav" activeClassName="activeNav" to="/Contact">
+              Contact
+            </NavLink>
+          </Route>
         </section>
         <section className="socialWrap">
           <a href="https://github.com/Kristiannmiller">
@@ -59,6 +66,9 @@ function App() {
           </Route>
           <Route exact path='/projects'>
             <WorkView />
+          </Route>
+          <Route exact path='/contact'>
+            <ContactView />
           </Route>
           <Route exact path='/'>
             <LandingPage />
