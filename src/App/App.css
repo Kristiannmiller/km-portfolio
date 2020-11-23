@@ -22,8 +22,14 @@
   text-align: center;
   display: inline-flex;
 }
-.activeNav {
+.nav:hover {
   color: #b64e3e;
+  font-weight: bold;
+}
+.activeNav {
+  background-color: #211e1c;
+  color: #f5f5f5;
+  font-weight: bold;
 }
 .navigationWrap {
   text-align: center;
