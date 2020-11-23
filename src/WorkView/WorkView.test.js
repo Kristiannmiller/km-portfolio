@@ -23,7 +23,7 @@ describe('WorkView', () => {
       render (
         <WorkView />
       )
-      const prompt = screen.getByText('WORK SAMPLES ↓');
+      const prompt = screen.getByText('WORK SAMPLES');
       expect(prompt).toBeInTheDocument();
     })
   })

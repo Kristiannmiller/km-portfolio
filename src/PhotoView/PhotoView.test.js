@@ -27,7 +27,7 @@ describe('PhotoView', () => {
       )
       const photoWrap = screen.getByTestId('photoWrap');
       const photoIntro = screen.getByTestId('photoIntro');
-      const prompt = screen.getByText('SEE MORE ↓');
+      const prompt = screen.getByText('SEE MORE');
       expect(photoWrap).toBeInTheDocument();
       expect(photoIntro).toBeInTheDocument();
       expect(prompt).toBeInTheDocument();
