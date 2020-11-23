@@ -57,7 +57,7 @@ describe('App', () => {
       const workWrap = screen.getByTestId('workWrap')
       expect(workWrap).toBeInTheDocument();
     })
-    it('Should return to WorkView', () => {
+    it('Should return to LandingView', () => {
       render (
         <App />
       )
@@ -69,8 +69,8 @@ describe('App', () => {
       const photoWrap = screen.getByTestId('photoWrap');
       expect(photoWrap).toBeInTheDocument();
       userEvent.click(logo)
-      const workWrap = screen.getByTestId('workWrap')
-      expect(workWrap).toBeInTheDocument();
+      const landingWrap = screen.getByTestId('landingWrap')
+      expect(landingWrap).toBeInTheDocument();
     })
     it('Should lead to social media links', () => {
       render (
