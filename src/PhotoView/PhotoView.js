@@ -9,7 +9,8 @@ const PhotoView = () => {
       <article className="introWrap">
         <h1 data-testid="photoIntro" className="bigIntro" id="workIntro">Photography and technology have always gone hand-in-hand throughout my career.
         </h1>
-        <h2 className="scrollPrompt">SEE MORE ↓</h2>
+        <h2 className="scrollPrompt">SEE MORE</h2>
+        <h2 className="animated bounce">↓</h2>
       </article>
       <section className="cardWrap" style={{backgroundImage: 'url(' + people + ')' }}>
         <article className="card">

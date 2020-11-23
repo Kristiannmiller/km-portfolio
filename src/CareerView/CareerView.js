@@ -8,7 +8,8 @@ const CareerView = () => {
     <section data-testid="careerWrap" className="careerWrap">
       <article className="introWrap">
         <h1 data-testid="workIntro" className="bigIntro" id="workIntro">I am a creative front-end developer based in Denver. Currently looking to join an innovative and visionary team.</h1>
-        <h2 className="scrollPrompt">FIND OUT MORE ↓</h2>
+        <h2 title="scroll down for more" className="scrollPrompt">FIND OUT MORE</h2>
+        <h2 className="animated bounce">↓</h2>
       </article>
       <section className="cardWrap" style={{backgroundImage: 'url(' + record + ')' }}>
         <article className="card">

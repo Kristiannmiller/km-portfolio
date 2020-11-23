@@ -17,7 +17,8 @@ const WorkView = () => {
         <h1 data-testid="workIntro" className="bigIntro" id="workIntro">Kristi Miller is a visually inspired front-end
         developer with a background in photojournalism. Based in Denver, Colorado.
         </h1>
-        <h2 className="scrollPrompt">WORK SAMPLES ↓</h2>
+        <h2 className="scrollPrompt">WORK SAMPLES</h2>
+        <h2 className="animated bounce">↓</h2>
       </article>
       <section className="projectCardWrap">
         {projectCards}
