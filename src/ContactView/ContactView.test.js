@@ -17,7 +17,7 @@ describe('ContactView', () => {
         <ContactView />
       )
       const contactWrap = screen.getByTestId('contactWrap')
-      const headshot = screen.getByAltText('Professional photo of Kristi Miller with pixie short, rose gold hair and round glasses with greenery in the background')
+      const headshot = screen.getByAltText('Kristi Miller with pixie short, rose gold hair and round glasses with greenery in the background')
       expect(contactWrap).toBeInTheDocument();
       expect(headshot).toBeInTheDocument();
     })
