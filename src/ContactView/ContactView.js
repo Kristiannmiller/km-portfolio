@@ -12,7 +12,7 @@ const ContactView = () => {
         <h1 className="chatIntro">Let's Chat!</h1>
         <p>I'm currently looking for work opportunities in Front-End development.</p>
         <p>Please contact me via email.</p>
-        <h2 className="contactIntro">kristi.ann.miller@gmail.com</h2>
+        <h2 className="email">kristi.ann.miller@gmail.com</h2>
       </article>
     </section>
   )
