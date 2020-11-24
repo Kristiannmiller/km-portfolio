@@ -1,3 +1,9 @@
 language: node_js
 node_js:
-  - "node"
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: mkhJyerQiAKJSVjL3Ojv8r8/kXA7mV7zhKK3ohjqKtvx9+ku+UId/hX5HZfaFk4uuciB6xIuq/PeyFhCPHgZ4kw1ScNGVF8ZD+JZKecLhnKtkXEo0vTg1JFrheq0wtmtdxhvbjQ0OlNOjATDUyPz+o0zN2kwRea9u4J0FuFeTHwk4WmHmHo4kK3IqOAxeVEWUjSPxoiN0U6cEvDXjxBXhR61/tjjqI1DFM0UhyinxweWhcqnUjdndniN5wjZ+nIUqk4o11Zy8pn9h6PXZJlKqny3KJcWphZoQgJ3sLQKh+085GA2UpJu81wOC8nj0v/uvsLhZgP816EKVQdN9uaUKCEaD4gZbQpm+UCENOkzdjg+JdF1HtHmFDG3awyFtgxBbO439H668ErvIoXPECAKGkzM5h/6wzAB5u7L9c2DX0hAbvNSuKDHN0ApHk+++QO8JO15aUvBH/1NxOXE67NJErcV14mkEurA8QTX1M99J3sST3Hjb2HfikosGvvzHb6L1Ni7BYf2Stux3CSAzS4ynGHQ0wB1RBiXgUPV7A91HdxsLEwqTVEcmnnCNFRKcAM9G5gO502jSs+gyoNN+eSA9TA9IlezJahEH6UUe2W/2MH1lSUpAhHSNQvymXLATSrzun6NtZxzvdT1zK9ICoqhoPMHRcZKlvDs1+k51QGXdMg=
+  app: km-fe-portfolio
+  skip_cleanup: true
