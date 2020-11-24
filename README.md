@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Kristiannmiller/km-portfolio">
-    <img src="src/Assets/Intro.gif" alt="moving image of application in use" width="600">
+    <img src="ReadmeAssets/Intro.gif" alt="moving image of application in use" width="600">
   </a>
   <h3 align="center">Kristi Miller Portfolio</h3>
   <p align="center">
@@ -15,7 +15,7 @@
 
 ## About The Project
 
-This project is designed to be a visual representation of my Front-End development, my design skills, and my photography skills all within one link.
+This project is designed to be a visual representation of my Front-End development projects, my design skills, and my photography skills all within one link.
 
 ### Built With
 * JavaScript
@@ -36,43 +36,51 @@ In your terminal:
 <img src="ReadmeAssets/Wireframe.png" alt="early wireframe design of portfolio site" width="600">
 
 ## Usage
-#### WORK VIEW
+#### LANDING PAGE
+
+The first page the user sees is the Landing Page that instructs the user to the navigation panel and introduces the application
+
+<img src="ReadmeAssets/landing.png" alt="Portfolio app landing page view" width="600">
+
+#### PROJECT PAGE
 
 The first page the user sees is the Work View that displays projects that can be clicked on to view more information and open the repo/deployed site
 
-<img src="src/Assets/WorkView.png" alt="Portfolio app landing page view" width="600">
+<img src="ReadmeAssets/projects.gif" alt="Portfolio app project page in action" width="600">
 
-#### PROJECT VIEW
-
-The Project View showcases a specific project.
-
-<img src="src/Assets/ProjectView.gif" alt="Protfolio app project view" width="600">
 
 #### CAREER VIEW
 
 The Career View will display an extended resume including more information on my work history, a career vision statement, and some other attributes and hobbies.
 
-<img src="src/Assets/CareerView.png" alt="Portfolio Career View" width="600">
+<img src="ReadmeAssets/career.gif" alt="Portfolio Career View" width="600">
 
 #### PHOTO VIEW
 
 The Photo View will showcase my previous work as a business owner and photographer ad how it pertains to my future role in the tech industry. It will also provide links to my photography pages.
 
-<img src="src/Assets/PhotoView.gif" alt="Portfolio Photo View" width="600">
+<img src="ReadmeAssets/photo.gif" alt="Portfolio Photo View" width="600">
+
+#### CONTACT PAGE
+
+The Contact Page will display a headshot, my job search status, and my email address.
+
+<img src="ReadmeAssets/contact.png" alt="Portfolio Contact Page" width="600">
 
 ## Roadmap
 The total build time allotted for this project is approximately 5 days. Future features contemplated by the developer include the following:
 
-* Future feature 1
-* Future feature 2
-* Future feature 3
-* Future feature 4
+* Additional animations
+* More opportunities for responsive design
+* Lighthouse audit
+* Email form
 
 See the [open issues](https://github.com/Kristiannmiller/km-portfolio/issues) for a list of proposed features (and known issues).
 
 ## Contact
 [Kristi Miller - Developer](https://github.com/Kristiannmiller)
 
-Project Link: [Lyrical Lies](https://github.com/Kristiannmiller/km-portfolio)
+Project Link: [Portfolio Site](https://github.com/Kristiannmiller/km-portfolio)
 
 ## Acknowledgements
+This developer would like to thank her good friend and mentor, Aimee Fritz for helping me solidify this idea.
