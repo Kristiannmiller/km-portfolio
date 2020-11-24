@@ -33,7 +33,7 @@ In your terminal:
 3. Start application- `npm start`
 
 ## Where it began
-<img src="src/Assets/wireframe.png" alt="early wireframe design of portfolio site" width="600">
+<img src="ReadmeAssets/Wireframe.png" alt="early wireframe design of portfolio site" width="600">
 
 ## Usage
 #### WORK VIEW

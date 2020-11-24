@@ -27,7 +27,7 @@ describe('CareerView', () => {
       )
       const careerWrap = screen.getByTestId('careerWrap');
       const intro = screen.getByTestId('workIntro');
-      const prompt = screen.getByText('FIND OUT MORE ↓');
+      const prompt = screen.getByText('FIND OUT MORE');
       expect(careerWrap).toBeInTheDocument();
       expect(intro).toBeInTheDocument();
       expect(prompt).toBeInTheDocument();

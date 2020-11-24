@@ -13,6 +13,8 @@
 .cardWrap {
   height: 90vh;
   width: 100vw;
+  padding: 0;
+  margin: 0;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -66,7 +68,102 @@
 .infoWrap {
   width: 90vw;
   height: 67vh;
-  /* overflow: scroll; */
   padding: 4vw;
   margin: 2vh;
+}
+@media screen and (max-width: 1078px) {
+  .projectLinks {
+    width: 15vw;
+  }
+  .cardTitle {
+    font-size: 4.5em;
+    margin: 0;
+  }
+  .cardDes {
+    font-size: 1.2em;
+    padding: 0vh 8vw;
+  }
+}
+@media screen and (max-width: 690px) {
+  .projectLinks {
+    width: 20vw;
+  }
+  .cardTitle {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .projectLinks {
+    width: 25vw;
+  }
+  .cardTitle {
+    font-size: 3.5em;
+  }
+  .cardDes {
+    padding: 0vh 6vw;
+  }
+}
+@media screen and (max-width: 520px) {
+  .cardTitle {
+    font-size: 3em;
+  }
+  .cardDes {
+    padding: 0vh 4vw;
+  }
+}
+@media screen and (max-height: 665px) {
+  .projectLinks {
+    height: 2vw;
+  }
+  .cardTitle {
+    font-size: 3.5em;
+    margin: 0;
+  }
+  .cardDes {
+    padding: 0vh 6vw;
+  }
+  .infoWrap {
+    padding: 1vw 5vw;
+  }
+}
+@media screen and (max-height: 500px) {
+  .projectLinks {
+    height: 1.5vw;
+  }
+  .cardTitle {
+    font-size: 3em;
+  }
+  .cardDes {
+    padding: 0vh 4vw;
+    font-size: 1em;
+  }
+  .infoWrap {
+    padding: 0vw 5vw;
+  }
+}
+@media screen and (max-height: 400px) {
+  .projectLinks {
+    height: 1.5vw;
+  }
+  .cardTitle {
+    font-size: 2.5em;
+  }
+  .cardDes {
+    padding: 0vh .25vw;
+    font-size: 1em;
+  }
+  .infoWrap {
+    padding: 0vw 5vw;
+  }
+}
+@media screen and (max-height: 375px) {
+  .tools {
+    margin: 0;
+  }
+}
+@media screen and (max-height: 330px) {
+  .cardDes {
+    padding: 0vh 0vw;
+    font-size: .75em;
+  }
 }
