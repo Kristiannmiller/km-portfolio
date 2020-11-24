@@ -21,7 +21,7 @@ function App() {
         <Route>
           <NavLink id="homeNav" className="homeNav" to="/">
             <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={logo} className="logo"/>
-            <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={smLogo} className="smLogo"/>
+            <img title="Navigate to landing page" alt ="Kristi Miller Initials" src={smLogo} className="smLogo"/>
           </NavLink>
         </Route>
         <section className="navigationWrap">
