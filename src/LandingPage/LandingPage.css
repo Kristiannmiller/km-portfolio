@@ -7,6 +7,12 @@
   opacity: 50%;
   padding: 5vw 5vw .5vw 5vw;
 }
+.landingInitialsLogo {
+  width: 75vw;
+  opacity: 50%;
+  padding: 5vw 5vw .5vw 5vw;
+  display: none;
+}
 .introduction {
   width: 70vw;
   padding: 0;
@@ -21,4 +27,25 @@
   font-size: 1.5em;
   margin: .5vw 20vw;
   color: #211e1c;
+}
+@media screen and (max-width: 750px) {
+  .landingLogo {
+    display: none;
+  }
+  .introduction {
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    font-size: 4em;
+    width: 60vw;
+    margin: 0;
+  }
+  .instructions {
+    padding-top: 0;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 622px) {
+  .introduction {
+    font-size: 3em;
+  }
 }
