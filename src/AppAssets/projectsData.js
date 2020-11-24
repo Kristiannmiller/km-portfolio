@@ -58,15 +58,15 @@ const projects = [
 {
   name: "Portfolio Site",
   repo: "https://github.com/Kristiannmiller/km-portfolio",
-  deploy: "https://kristiannmiller.github.io/km-tic-tac-toe/",
+  deploy: "https://km-fe-portfolio.herokuapp.com/",
   status: "Work In Progress",
   tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, CSS Animations",
   challenge: "Create a portfolio site with a focus on UI/UX design and personal branding",
   purpose: "Simplify networking by being able to provide a single link to showcase my work",
   developers: "Kristi Miller",
   short_des: "A portfolio site",
-  long_des: "SURPRISE! This portfolio is also a current project that is constantly being updated. My goal with this site is to provide future/potential employers and contacts with up-to-date samples of my work and career aspirations. With UI/UX as a main focus, I built this app with React and kept the codebase relatively simple in order to be able to update quickly when needed without worrying about breaking changes. The site itself is a reflection of my personality and style. Feel free to contact me if anything on this site needs attention (sometimes we all need a little extra attention).",
-  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/Wireframe-JTT.png",
+  long_des: "Surprise! This portfolio is also a current project that is constantly being updated. My goal with this site is to provide future/potential employers and contacts with up-to-date samples of my work and career aspirations. With UI/UX as a main focus, I built this app with React and kept the codebase relatively simple in order to be able to update quickly when needed without worrying about breaking changes. The site itself is a reflection of my personality and style. Feel free to contact me if anything on this site needs attention (sometimes we all need a little extra attention).",
+  photo: "https://raw.githubusercontent.com/Kristiannmiller/km-portfolio/main/ReadmeAssets/Wireframe.png",
   gif: "https://raw.githubusercontent.com/Kristiannmiller/km-tic-tac-toe/master/assets/DesktopViewTour.gif"
 }
 ]
