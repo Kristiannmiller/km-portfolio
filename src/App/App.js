@@ -2,6 +2,7 @@ import logo from '../AppAssets/namelogo.png'
 import github from '../AppAssets/github.png'
 import linkedin from '../AppAssets/linkedin.png'
 import turing from '../AppAssets/turing.png'
+import smLogo from '../AppAssets/initials.png'
 import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 import './App.css';
 import React from 'react';
@@ -20,6 +21,7 @@ function App() {
         <Route>
           <NavLink id="homeNav" className="homeNav" to="/">
             <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={logo} className="logo"/>
+            <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={smLogo} className="smLogo"/>
           </NavLink>
         </Route>
         <section className="navigationWrap">

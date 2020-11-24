@@ -5,6 +5,9 @@
   height: 8vh;
   padding: 2vh;
 }
+.smLogo {
+  display: none;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -69,6 +72,14 @@ main {
     margin-left: 1vw;
     display: grid;
     width: 10vw;
+  }
+  .smLogo {
+    height: 10vh;
+    padding: 2vh;
+    display: block;
+  }
+  .logo {
+    display: none;
   }
 }
 @media screen and (max-width: 556px) {
