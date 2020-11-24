@@ -51,3 +51,33 @@ main {
   background-color: #f5f5f5;
   overflow: scroll;
 }
+@media screen and (max-width: 1000px) {
+  .nav {
+    padding: 2vh;
+  }
+}
+@media screen and (max-width: 910px) {
+  .nav {
+    padding: 1vh;
+  }
+}
+@media screen and (max-width: 825px) {
+  .nav {
+    padding: .5vh;
+  }
+  .navigationWrap {
+    margin-left: 1vw;
+    display: grid;
+    width: 10vw;
+  }
+}
+@media screen and (max-width: 556px) {
+  .socialWrap {
+    display: grid;
+    width: 2vw;
+  }
+  .socialLogo {
+    padding: 0;
+    height: 4vh;
+  }
+}
