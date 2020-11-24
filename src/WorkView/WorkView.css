@@ -11,3 +11,18 @@
   padding: 0vw 5vw .2vw 5vw;
   color: #211e1c;
 }
+@media screen and (max-width: 1275px) {
+  .bigIntro {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 930px) {
+  .bigIntro {
+    font-size: 3.5em;
+  }
+}
+@media screen and (max-width: 675px) {
+  .bigIntro {
+    font-size: 3em;
+  }
+}
