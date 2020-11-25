@@ -29,15 +29,11 @@
   color: #211e1c;
 }
 @media screen and (max-width: 750px) {
-  .landingLogo {
-    display: none;
-  }
   .introduction {
-    padding-top: 10vh;
+    padding-top: 20px;
     padding-bottom: 3vh;
-    font-size: 4em;
-    width: 60vw;
-    margin: 0;
+    font-size: 2.5em;
+    width: 70vw;
   }
   .instructions {
     padding-top: 0;
@@ -46,6 +42,16 @@
 }
 @media screen and (max-width: 622px) {
   .introduction {
-    font-size: 3em;
+    font-size: 2em;
+  }
+  .landingLogo {
+    width: 75vw;
+    opacity: 50%;
+    padding: 10vw 5vw .5vw 5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .introduction {
+    font-size: 2.5em;
   }
 }
