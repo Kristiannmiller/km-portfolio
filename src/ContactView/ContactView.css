@@ -34,6 +34,9 @@
   padding: 0;
   margin: 0;
 }
+.email {
+  color: #B64E3E;
+}
 @media screen and (max-width: 1108px) {
   .contactInfo {
     margin-top: 10vh;
