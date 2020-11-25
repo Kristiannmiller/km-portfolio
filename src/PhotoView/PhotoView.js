@@ -13,7 +13,7 @@ const PhotoView = () => {
         <h2 className="animated bounce">↓</h2>
       </article>
       <section className="cardWrap" style={{backgroundImage: 'url(' + people + ')' }}>
-        <article className="card">
+        <article className="card" id="shortCard">
           <section className="infoWrap">
             <h2 className="cardTitle">People</h2>
             <a href="http://www.kam-era.com" className="photoLinks">
@@ -25,7 +25,7 @@ const PhotoView = () => {
         </article>
       </section>
       <section className="cardWrap" style={{backgroundImage: 'url(' + product + ')' }}>
-        <article className="card">
+        <article className="card" id="shortCard">
           <section className="infoWrap">
             <h2 className="cardTitle">Products</h2>
             <a href="http://www.kameraproduct.com" className="photoLinks">
