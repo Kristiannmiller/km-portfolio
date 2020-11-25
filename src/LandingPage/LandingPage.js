@@ -1,5 +1,5 @@
 import './LandingPage.css';
-import logo from '../AppAssets/namelogo.png'
+import logo from '../AppAssets/namelogo.png';
 import React from 'react';
 
 const LandingPage = () => {
