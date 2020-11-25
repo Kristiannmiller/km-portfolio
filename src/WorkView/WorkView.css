@@ -1,5 +1,6 @@
 .bigIntro {
   font-size: 5em;
+  margin: 1vw 0vw 2vw 0vw;
   padding: 1vw 5vw 0vw 5vw;
   color: #B64E3E;
 }
@@ -8,25 +9,65 @@
 }
 .scrollPrompt {
   font-size: 2em;
-  padding: 0vw 5vw .2vw 5vw;
+  margin: 0;
+  padding: 0vw 5vw 0vw 5vw;
   color: #211e1c;
 }
-@media screen and (max-width: 1275px) {
+.bounce {
+  margin: 5px;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation: bounce 3.6s ease infinite;
+  transform-origin: 50% 50%;
+  font-size: 2em;
+  padding: 0vw 5vw 5vw 5vw;
+  color: #211e1c;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  5.55556% {
+    transform: translateY(0);
+  }
+  11.11111% {
+    transform: translateY(0);
+  }
+  22.22222% {
+    transform: translateY(-15px);
+  }
+  27.77778% {
+    transform: translateY(0);
+  }
+  33.33333% {
+    transform: translateY(-15px);
+  }
+  44.44444% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 1296px) {
   .bigIntro {
-    font-size: 4em;
+    font-size: 3.5em;
+    margin-bottom: 1vh;
+    margin-top: 5vh;
   }
 }
 @media screen and (max-width: 930px) {
   .bigIntro {
-    font-size: 3.5em;
-  }
-}
-@media screen and (max-width: 675px) {
-  .bigIntro {
     font-size: 3em;
   }
 }
-@media screen and (max-height: 750px) {
+@media screen and (max-width: 700px) {
+  .bigIntro {
+    font-size: 2.5em;
+  }
+}
+/* @media screen and (max-height: 750px) {
   .bigIntro {
     font-size: 4.25em;
   }
@@ -66,4 +107,4 @@
   .bigIntro {
     font-size: 2.5em;
   }
-}
+} */

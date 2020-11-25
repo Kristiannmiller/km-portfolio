@@ -21,7 +21,7 @@ function App() {
         <Route>
           <NavLink id="homeNav" className="homeNav" to="/">
             <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={logo} className="logo"/>
-            <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={smLogo} className="smLogo"/>
+            <img title="Navigate to landing page" alt ="Kristi Miller Initials" src={smLogo} className="smLogo"/>
           </NavLink>
         </Route>
         <section className="navigationWrap">
@@ -77,6 +77,19 @@ function App() {
           </Route>
         </Switch>
       </main>
+      <footer className="footer">
+        <section className="footerWrap">
+          <a href="https://github.com/Kristiannmiller">
+            <img title="Find Kristi on Github" className="socialLogo" src={github} alt="Kristi on Github"/>
+          </a>
+          <a href="https://www.linkedin.com/in/kristiannmiller/">
+            <img title="Find Kristi on LinkedIn" className="socialLogo" src={linkedin} alt="Kristi on LinkedIn"/>
+          </a>
+          <a href="https://alumni.turing.io/alumni/kristi-miller">
+            <img title="View Kristi's Turing profile" className="socialLogo" src={turing} alt="Kristi's Turing portfolio"/>
+          </a>
+        </section>
+      </footer>
     </BrowserRouter>
   );
 }

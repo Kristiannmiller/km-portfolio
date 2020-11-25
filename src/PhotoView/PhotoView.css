@@ -1,10 +1,11 @@
 .photoLinks {
   text-decoration: none;
+  font-size: 1em;
   color: #f5f5f5;
   background-color: #211e1c;
   display: inline-block;
   padding: 1vh;
-  width: 20vw;
+  width: auto;
   margin: 3vh;
   height: 3vh;
   border: 1px solid #f5f5f5;
@@ -14,37 +15,37 @@
   color: #211e1c;
   background-color: #f5f5f5;
 }
-@media screen and (max-width: 1075px) {
-  .photoLinks {
-    width: 30vw;
+.photoDes {
+  color: #f5f5f5;
+  font-size: 1.75em;
+  padding: 3vh 5vw;
+  shadow: 0px 0px 10px rgba(33, 30, 28, 0.70);
+  text-shadow: 0px 0px 5px #211e1c;
+}
+.photoCardTitle {
+  font-size: 5em;
+  color: #f5f5f5;
+  background-color: none;
+  margin: 1vh 1vh 0vh 1vh;
+  font-family:'Noto Sans SC', sans-serif;
+  text-shadow: 0px 0px 5px #211e1c;
+}
+@media screen and (max-width: 1000px) {
+  .photoDes {
+    font-size: 1.5em;
   }
 }
-@media screen and (max-width: 725px) {
-  .photoLinks {
-    width: 40vw;
+@media screen and (max-width: 750px) {
+  .photoDes {
+    font-size: 1.25em;
   }
 }
 @media screen and (max-width: 550px) {
-  .photoLinks {
-    width: 45vw;
-  }
-  .cardDes {
-    font-size: 1.25em;
-  }
-}
-@media screen and (max-height: 475px) {
-  .photoLinks {
-    height: 5vh;
-  }
-  .cardDes {
-    font-size: 1.25em;
-  }
-}
-@media screen and (max-height: 350px) {
-  .photoLinks {
-    height: 6vh;
-  }
-  .cardDes {
+  .photoDes {
+    padding: 1vh 5vw;
     font-size: 1em;
+  }
+  .photoCardTitle {
+    font-size: 4em;
   }
 }

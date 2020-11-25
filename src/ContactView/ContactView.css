@@ -17,6 +17,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.workStatus {
+  margin: 5px;
+  padding: 5px;
+}
 .headshot {
   height: 70vh;
   border-radius: 20px;
@@ -29,6 +33,9 @@
   color: #B64E3E;
   padding: 0;
   margin: 0;
+}
+.email {
+  color: #B64E3E;
 }
 @media screen and (max-width: 1108px) {
   .contactInfo {

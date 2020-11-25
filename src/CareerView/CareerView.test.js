@@ -36,7 +36,7 @@ describe('CareerView', () => {
       render (
         <CareerView />
       )
-      const vision = screen.getByText('My Career Vision');
+      const vision = screen.getByText('Career Vision');
       const visionText = screen.getByTestId('visionText');
       expect(vision).toBeInTheDocument();
       expect(visionText).toBeInTheDocument();
