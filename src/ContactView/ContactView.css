@@ -17,6 +17,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.workStatus {
+  margin: 5px;
+  padding: 5px;
+}
 .headshot {
   height: 70vh;
   border-radius: 20px;
