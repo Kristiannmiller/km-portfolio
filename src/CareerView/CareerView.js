@@ -12,14 +12,14 @@ const CareerView = () => {
         <h2 className="animated bounce">↓</h2>
       </article>
       <section className="cardWrap" style={{backgroundImage: 'url(' + record + ')' }}>
-        <article className="card">
-        <h1 className="visionTitle">My Career Vision</h1>
-        <h2 data-testid="visionText" className="vision">"I will find a job as a developer that gives me the opportunity to create meaningful work while keeping me comfortable financially, joyful socially, and active creatively. <br/><br/>Ideally I would like to work on an application whose subject matter sparks an interest for me, and I am prepared to work in either a group or solo setting."</h2>
+        <article className="card" id="quoteCard">
+        <h1 className="cardTitle">Career Vision</h1>
+        <h2 data-testid="visionText" className="quoteText">"I will find a job as a developer that gives me the opportunity to create meaningful work while keeping me comfortable financially, joyful socially, and active creatively. <br/><br/>Ideally I would like to work on an application whose subject matter sparks an interest for me, and I am prepared to work in either a group or solo setting."</h2>
         </article>
       </section>
       <section className="cardWrap">
-        <article className="card">
-        <h1 className="title">Work History</h1>
+        <article className="card" id="quoteCard">
+        <h1 className="workTitle">Work History</h1>
           <article data-testid="jobWrap" className="jobWrap">
           <section className="job">
             <h2 className="company">Turing School</h2>
@@ -52,9 +52,9 @@ instructional video production and filming, client research, customer service, p
         </article>
       </section>
       <section className="cardWrap" style={{backgroundImage: 'url(' + bear + ')' }}>
-        <article className="card">
-        <h1 className="title">Why Web Development?</h1>
-        <h2 data-testid="whyText" className="about">I am the daughter of a logically brained, computer saavy father, and his whimsical home decorating partner. It is this mix of characteristics that gifted me with a deeprooted love for the logical details of beautiful design.
+        <article className="card" id="quoteCard">
+        <h1 className="cardTitle" id="whyTitle">Why Web Development?</h1>
+        <h2 data-testid="whyText" className="quoteText">I am the daughter of a logically brained, computer saavy father, and his whimsical home decorating partner. It is this mix of characteristics that gifted me with a deeprooted love for the logical details of beautiful design.
         <br/><br/>I was born with a camera in one hand a floppy disc in the other (80's babies represent). Merging my background in photography and marketing with what I have learned as a developer at Turing, I plan to help websites improve their overall appearance. <br/><br/>My change in careers from a photographer to a front-end developer is one that I plan to fill with imagery and creativity.</h2>
         </article>
       </section>
