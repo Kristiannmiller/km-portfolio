@@ -8,7 +8,8 @@
 .smLogo {
   display: none;
 }
-.header {
+header {
+  height: 15vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,6 +17,26 @@
   border-bottom: 2px solid #211e1c;
   align-items: flex-end;
   background-color: #f5f5f5;
+}
+footer {
+  height: 8vh;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: 2px solid #211e1c;
+  align-items: flex-start;
+  background-color: #f5f5f5;
+}
+.footerWrap {
+  padding: 5px;
+  display: flex;
+  flex: auto;
+  height: auto;
+}
+.footerWrap .socialLogo {
+  padding: 5px;
+  height: 5vh;
 }
 .nav {
   padding: 3vh;
@@ -50,7 +71,7 @@
   flex: auto;
 }
 main {
-  height: 87vh;
+  height: 85vh;
   background-color: #f5f5f5;
   overflow: scroll;
 }
@@ -66,12 +87,14 @@ main {
 }
 @media screen and (max-width: 825px) {
   .nav {
-    padding: .5vh;
+    padding: 10px;
   }
   .navigationWrap {
-    margin-left: 1vw;
-    display: grid;
-    width: 10vw;
+    width: 30vw;
+  }
+  .socialWrap {
+    padding: 5px;
+    width: 1vw;
   }
   .smLogo {
     height: 10vh;
@@ -81,14 +104,40 @@ main {
   .logo {
     display: none;
   }
-}
-@media screen and (max-width: 556px) {
-  .socialWrap {
-    display: grid;
-    width: 2vw;
+  #contactNav {
+    border-left: 1px solid #211e1c;
   }
-  .socialLogo {
-    padding: 0;
-    height: 4vh;
+  #photoNav {
+    border-left: 1px solid #211e1c;
+  }
+  #careerNav {
+    border-left: 1px solid #211e1c;
+  }
+}
+@media screen and (max-width: 730px) {
+  .footer {
+    display: flex;
+  }
+  .socialWrap {
+    display: none;
+  }
+  main {
+    height: 77vh;
+  }
+}
+@media screen and (max-width: 530px) {
+  .smLogo {
+    display: none;
+  }
+  header {
+    height: 6vh;
+  }
+  main {
+    height: 86vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav {
+    font-size: 1rem;
   }
 }
