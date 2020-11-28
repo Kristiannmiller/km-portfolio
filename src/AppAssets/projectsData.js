@@ -2,7 +2,7 @@ const projects = [
   {
   name: "Rume",
   repo: "https://github.com/nathanielmillard/rume",
-  deploy: "https://nathanielmillard.github.io/rume/",
+  deploy: "https://rume-app.herokuapp.com/",
   status: "Work In Progress",
   tools: "JavaScript, CSS, HTML, React, React Router, Jest, Babel, Express, Green Sock Animations, Styled Components",
   challenge: "Create a React application utilizing Green Sock Animations and Styled Components for the first time",
