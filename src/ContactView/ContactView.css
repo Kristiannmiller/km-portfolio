@@ -63,7 +63,7 @@
     margin: 5vh;
   }
   .email {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 890px) {
