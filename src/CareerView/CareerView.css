@@ -3,6 +3,12 @@
   color: #f5f5f5;
   margin: 6vh;
 }
+
+.storyText {
+  font-size: 1.25rem;
+  color: #f5f5f5;
+  margin: 6vh;
+}
 .job {
   width: 50vw;
   height: 30vh;
