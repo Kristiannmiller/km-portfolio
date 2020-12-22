@@ -10,7 +10,6 @@ const LandingPage = () => {
       This is a web development portfolio for Kristi Miller.
       </article>
       <h2 data-testid="instructions" className="instructions">
-      If you're looking for Kristi's photography please click "Photography". Otherwise, please click "Projects" to see current work.
       </h2>
     </section>
   )
