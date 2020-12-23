@@ -5,7 +5,7 @@ import turing from '../AppAssets/turing.png'
 import smLogo from '../AppAssets/initials.png'
 import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 import './App.css';
-import React from 'react';
+import {Component} from 'react';
 import WorkView from '../WorkView/WorkView.js'
 import CareerView from '../CareerView/CareerView.js'
 import PhotoView from '../PhotoView/PhotoView.js'
@@ -14,39 +14,51 @@ import ContactView from '../ContactView/ContactView.js'
 
 
 
-function App() {
-  return (
+class App extends Component {
+  constructor() {
+    super()
+    this.state= {
+      isOnLandingPage: true
+    }
+  }
+  handleLandingPageChange = (status) => {
+    this.setState({isOnLandingPage: status})
+  }
+  render() {
+    return (
     <BrowserRouter>
-      <header className="header">
-        <Route>
-          <NavLink id="homeNav" className="homeNav" to="/">
-            <img title="Navigate to landing page" alt ="Kristi Miller Logo" src={logo} className="logo"/>
-            <img title="Navigate to landing page" alt ="Kristi Miller Initials" src={smLogo} className="smLogo"/>
-          </NavLink>
-        </Route>
-        <section className="navigationWrap">
+      {!this.state.isOnLandingPage &&
+        <header className="header">
           <Route>
-            <NavLink title="Navigate to Projects page" id="workNav" className="nav" activeClassName="activeNav" to="/projects">
-              Projects
+            <NavLink id="homeNav" className="homeNav" to="/projects">
+              <img title="Navigate to home page" alt ="Kristi Miller Logo" src={logo} className="logo"/>
+              <img title="Navigate to home page" alt ="Kristi Miller Initials" src={smLogo} className="smLogo"/>
             </NavLink>
           </Route>
-          <Route>
-            <NavLink title="Navigate to Career page" id="careerNav" className="nav" activeClassName="activeNav" to="/CV">
-              Career
-            </NavLink>
-          </Route>
-          <Route>
-            <NavLink title="Navigate to Photography page" id="photoNav" className="nav" activeClassName="activeNav" to="/Photo">
-              Photography
-            </NavLink>
-          </Route>
-          <Route>
-            <NavLink title="Navigate to Contact page" id="contactNav" className="nav" activeClassName="activeNav" to="/Contact">
-              Contact
-            </NavLink>
-          </Route>
-        </section>
-      </header>
+          <section className="navigationWrap">
+            <Route>
+              <NavLink title="Navigate to Projects page" id="workNav" className="nav" activeClassName="activeNav" to="/projects">
+                Projects
+              </NavLink>
+            </Route>
+            <Route>
+              <NavLink title="Navigate to Career page" id="careerNav" className="nav" activeClassName="activeNav" to="/CV">
+                Career
+              </NavLink>
+            </Route>
+            <Route>
+              <NavLink title="Navigate to Photography page" id="photoNav" className="nav" activeClassName="activeNav" to="/Photo">
+                Photography
+              </NavLink>
+            </Route>
+            <Route>
+              <NavLink title="Navigate to Contact page" id="contactNav" className="nav" activeClassName="activeNav" to="/Contact">
+                Contact
+              </NavLink>
+            </Route>
+          </section>
+        </header>
+      }
       <main>
         <Switch>
           <Route path='/CV'>
