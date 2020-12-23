@@ -74,25 +74,27 @@ class App extends Component {
             <ContactView />
           </Route>
           <Route exact path='/'>
-            <WorkView />
+            <LandingPage isActive={this.handleLandingPageChange} />
           </Route>
         </Switch>
       </main>
-      <footer className="footer">
-        <section className="footerWrap">
-          <a href="https://github.com/Kristiannmiller">
-            <img title="Find Kristi on Github" className="socialLogo" src={github} alt="Kristi on Github"/>
-          </a>
-          <a href="https://www.linkedin.com/in/kristiannmiller/">
-            <img title="Find Kristi on LinkedIn" className="socialLogo" src={linkedin} alt="Kristi on LinkedIn"/>
-          </a>
-          <a href="https://alumni.turing.io/alumni/kristi-miller">
-            <img title="View Kristi's Turing profile" className="socialLogo" src={turing} alt="Kristi's Turing portfolio"/>
-          </a>
-        </section>
-      </footer>
+      {!this.state.isOnLandingPage &&
+        <footer className="footer">
+          <section className="footerWrap">
+            <a href="https://github.com/Kristiannmiller">
+              <img title="Find Kristi on Github" className="socialLogo" src={github} alt="Kristi on Github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/kristiannmiller/">
+              <img title="Find Kristi on LinkedIn" className="socialLogo" src={linkedin} alt="Kristi on LinkedIn"/>
+            </a>
+            <a href="https://alumni.turing.io/alumni/kristi-miller">
+              <img title="View Kristi's Turing profile" className="socialLogo" src={turing} alt="Kristi's Turing portfolio"/>
+            </a>
+          </section>
+        </footer>
+      }
     </BrowserRouter>
-  );
+  )};
 }
 
 export default App;
