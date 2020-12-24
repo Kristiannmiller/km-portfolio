@@ -73,7 +73,7 @@ class App extends Component {
             <ContactView />
           </Route>
           <Route exact path='/'>
-            <LandingPage isActive={this.handleLandingPageChange} />
+            <LandingPage enterSite={this.handleLandingPageChange} />
           </Route>
         </Switch>
       </main>
