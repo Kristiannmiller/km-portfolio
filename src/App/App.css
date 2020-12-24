@@ -45,7 +45,6 @@ header {
   background-color: #f5f5f5;
 }
 footer {
-  height: 5%;
   width: 100%;
   display: flex;
   position: sticky;
@@ -95,69 +94,3 @@ main {
   background-color: #f5f5f5;
   overflow: scroll;
 }
-/* @media screen and (max-width: 1000px) {
-  .nav {
-    padding: 2vh;
-  }
-}
-@media screen and (max-width: 910px) {
-  .nav {
-    padding: 1vh;
-  }
-}
-@media screen and (max-width: 825px) {
-  .nav {
-    padding: 10px;
-  }
-  .navigationWrap {
-    width: 30vw;
-  }
-  .socialWrap {
-    padding: 5px;
-    width: 1vw;
-  }
-  .smLogo {
-    height: 10vh;
-    padding: 2vh;
-    display: block;
-  }
-  .logo {
-    display: none;
-  }
-  #contactNav {
-    border-left: 1px solid #211e1c;
-  }
-  #photoNav {
-    border-left: 1px solid #211e1c;
-  }
-  #careerNav {
-    border-left: 1px solid #211e1c;
-  }
-}
-@media screen and (max-width: 730px) {
-  .footer {
-    display: flex;
-  }
-  .socialWrap {
-    display: none;
-  }
-  main {
-    height: 77vh;
-  }
-}
-@media screen and (max-width: 530px) {
-  .smLogo {
-    display: none;
-  }
-  header {
-    height: 6vh;
-  }
-  main {
-    height: 86vh;
-  }
-}
-@media screen and (max-width: 400px) {
-  .nav {
-    font-size: 1rem;
-  }
-} */
