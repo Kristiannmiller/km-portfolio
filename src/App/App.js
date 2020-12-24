@@ -25,7 +25,7 @@ class App extends Component {
   }
   render() {
     return (
-    <BrowserRouter>
+    <section>
       {this.props.location.pathname !== '/' &&
         <header className="header">
           <Route>
@@ -92,7 +92,7 @@ class App extends Component {
           </section>
         </footer>
       }
-    </BrowserRouter>
+    </section>
   )};
 }
 
