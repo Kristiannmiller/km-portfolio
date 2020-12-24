@@ -14,7 +14,7 @@ const LandingPage = ({isActive}) => {
       <img title="Kristi Miller Logo" alt ="Kristi Miller logo script writing with plenty of swirls and embellishment" src={logo} className="landingLogo"/>
         <section className="introWrap">
           <article data-testid="introduction" id="testAn1" className="introduction">
-            Unique Character
+            Creatively Driven
           </article>
           <article data-testid="introduction" id="testAn2" className="introduction">
             Organized Team Leader
