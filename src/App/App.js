@@ -3,7 +3,7 @@ import github from '../AppAssets/github.png'
 import linkedin from '../AppAssets/linkedin.png'
 import turing from '../AppAssets/turing.png'
 import smLogo from '../AppAssets/initials.png'
-import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
+import {withRouter, BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 import './App.css';
 import {Component} from 'react';
 import WorkView from '../WorkView/WorkView.js'
@@ -15,19 +15,18 @@ import ContactView from '../ContactView/ContactView.js'
 
 
 class App extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state= {
-      isOnLandingPage: true
     }
   }
-  handleLandingPageChange = (status) => {
-    this.setState({isOnLandingPage: status})
+  handleLandingPageChange = () => {
+    window.location.pathname = '/projects';
   }
   render() {
     return (
     <BrowserRouter>
-      {!this.state.isOnLandingPage &&
+      {this.props.location.pathname !== '/' &&
         <header className="header">
           <Route>
             <NavLink id="homeNav" className="homeNav" to="/projects">
@@ -78,7 +77,7 @@ class App extends Component {
           </Route>
         </Switch>
       </main>
-      {!this.state.isOnLandingPage &&
+      {this.props.location.pathname !== '/' &&
         <footer className="footer">
           <section className="footerWrap">
             <a href="https://github.com/Kristiannmiller">
@@ -97,4 +96,4 @@ class App extends Component {
   )};
 }
 
-export default App;
+export default withRouter(App);
