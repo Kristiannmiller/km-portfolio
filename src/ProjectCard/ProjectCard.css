@@ -27,7 +27,6 @@
   display: flex;
   float: right;
   flex-direction: column;
-  align-self: flex-end;
   padding: 2%;
 }
 .cardTitle {
@@ -37,6 +36,37 @@
   margin: 0% 3% 0% 1%;
   font-family: 'Habibi', serif;
   text-shadow: 3px 3px 8px #300e25;
+}
+.techWrap {
+  width: 75%;
+  text-align: center;
+  padding: 0;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: flex-end;
+}
+.techTitle {
+  text-align: left;
+  font-family: 'Habibi', serif;
+  color: #300e25;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  border-bottom: 1px solid #300e25;
+}
+.techListWrap {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+}
+.tech {
+  width: 48%;
+  padding: 1%;
 }
 .status {
   width: auto;
@@ -92,6 +122,7 @@
 .projectDetails {
   font-family: 'Raleway', sans-serif;
   font-size: 100%;
+  padding: 1%;
   margin: 5%;
   background-color: rgba(248, 248, 248, 0.80);
   border: 2px solid #f5f5f5;
@@ -102,12 +133,12 @@
 .cardDes {
   color: #300e25;
   font-size: 1.5em;
-  padding: 2em;
+  padding: 2%;
 }
 .tools {
   color: #300e25;
   font-size: 1.5em;
-  padding: 0 2em .5em 2em;
+  padding: 2%;
 }
 .gif {
   padding-bottom: 1em;
