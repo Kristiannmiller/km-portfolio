@@ -21,21 +21,22 @@ const ProjectCard = ({ project }) => {
         <section className="infoWrap">
           <section className="projectDetails">
             <p className="cardDes">{project.long_des}</p>
-            <section className="bullets">
-              <h3 className="tools">Tools :: {project.tools}</h3>
-              <h3 className="tools">Team :: {project.developers}</h3>
-            </section>
           </section>
         </section>
       )
     }
   }
+  const techList =
+    project.tools.map(tool => {
+      return (
+        <li className="tech">{tool}</li>
+      )
+    })
   return (
     <section data-testid="cardWrap" className="cardWrap" style={{backgroundImage: 'url(' + project.photo + ')' }}>
       <article className="card">
         <section className="projectIntro">
           <h2 className="cardTitle">{project.name}</h2>
-          <h3 className="status">({project.status})</h3>
           <section className="buttons">
             <a href={project.repo} className="projectLinks">
               Repo Link
@@ -43,6 +44,13 @@ const ProjectCard = ({ project }) => {
             <a href={project.deploy} className="projectLinks">
               Deployed Link
             </a>
+          </section>
+          <section className="techWrap">
+            <h3 className="techTitle">Tools and Tech</h3>
+            <article className="techListWrap">
+              { techList }
+            </article>
+
           </section>
         </section>
         { projectInfo() }
