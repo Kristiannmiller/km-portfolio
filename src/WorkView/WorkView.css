@@ -4,12 +4,13 @@
 .bigIntro {
   font-family: 'Habibi', serif;
   color: #9c5280;
-  font-size: 6em;
+  font-size: 5em;
   margin: 2% 0% 2% 0%;
   padding: 4% 5% 0% 5%;
   height: 100%;
 }
 .introWrap {
+  font-size: 12px;
   height: 100%;
   display: flex;
   flex-direction: column;

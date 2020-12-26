@@ -36,7 +36,7 @@
   flex-wrap: wrap;
 }
 .card {
-  display: block;
+  /* display: block; */
 }
 
 .position {
