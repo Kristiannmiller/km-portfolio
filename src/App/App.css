@@ -100,8 +100,25 @@ footer {
   width: 30%;
 	height: 100%;
 }
+.mobileNav {
+	display: none;
+}
+.hamNav {
+	display: none;
+}
 main {
   height: 85%;
   background-color: #f5f5f5;
   overflow: scroll;
+}
+@media screen and (max-width: 600px) {
+	.navigationWrap{
+		display: none;
+	}
+	.hamNav {
+		display: flex;
+	}
+	header {
+		justify-content: space-between;
+	}
 }
