@@ -6,6 +6,7 @@ import smLogo from '../AppAssets/initials.png'
 import {withRouter, BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 import './App.css';
 import {Component} from 'react';
+import { MobileNavMenu, HamNav } from './styledComponents.js'
 import WorkView from '../WorkView/WorkView.js'
 import CareerView from '../CareerView/CareerView.js'
 import PhotoView from '../PhotoView/PhotoView.js'
@@ -18,10 +19,14 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state= {
+      mobileNavOpen: false
     }
   }
   handleLandingPageChange = () => {
     window.location.pathname = '/projects';
+  }
+  toggleMobileNav = () => {
+    this.setState({mobileNavOpen: !this.state.mobileNavOpen})
   }
   render() {
     return (
@@ -56,9 +61,36 @@ class App extends Component {
               </NavLink>
             </Route>
           </section>
+          <HamNav
+            onClick={() => this.toggleMobileNav()}
+            className="hamNav"
+            transform={this.state.mobileNavOpen ? 'rotate(180deg)' : 'rotate(90deg)'}
+            >{this.state.mobileNavOpen ? 'X' : '|||'}</HamNav>
         </header>
       }
       <main>
+      <MobileNavMenu display={this.state.mobileNavOpen ? 'flex' : 'none'}>
+        <Route>
+          <NavLink title="Navigate to Projects page" id="workNav" className="nav" activeClassName="activeNav" to="/projects">
+            Projects
+          </NavLink>
+        </Route>
+        <Route>
+          <NavLink title="Navigate to Career page" id="careerNav" className="nav" activeClassName="activeNav" to="/CV">
+            Career
+          </NavLink>
+        </Route>
+        <Route>
+          <NavLink title="Navigate to Photography page" id="photoNav" className="nav" activeClassName="activeNav" to="/Photo">
+            Photography
+          </NavLink>
+        </Route>
+        <Route>
+          <NavLink title="Navigate to Contact page" id="contactNav" className="nav" activeClassName="activeNav" to="/Contact">
+            Contact
+          </NavLink>
+        </Route>
+      </MobileNavMenu>
         <Switch>
           <Route path='/CV'>
             <CareerView />
