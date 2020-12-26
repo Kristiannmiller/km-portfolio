@@ -12,7 +12,7 @@
 }
 .card {
   background-color: rgba(188, 179, 183, 0.92);
-  height: 90vh;
+  height: 100%;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -46,6 +46,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-self: flex-end;
+
 }
 .techTitle {
   text-align: left;
@@ -56,6 +57,10 @@
   border-bottom: 1px solid #300e25;
 }
 .techListWrap {
+  background-color: rgba(248, 248, 248, 0.80);
+  border: 2px solid #f5f5f5;
+  box-shadow: 1px 1px 10px #300e25;
+  padding: 2%;
   font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: row;
@@ -67,14 +72,6 @@
 .tech {
   width: 48%;
   padding: 1%;
-}
-.status {
-  width: auto;
-  text-align: right;
-  color: #300e25;
-  font-size: 1.2em;
-  padding: 0;
-  margin: -3% 3% 3% 1%;
 }
 .buttons {
   width: 90%;
@@ -106,8 +103,9 @@
 .infoWrap {
   text-align: left;
   width: 100%;
-  height: 75%;
+  height: 70vh;
   display: flex;
+  margin: 5% 1%;
   flex-direction: column;
   border-left: 10px solid #300e25;
   overflow: scroll;
@@ -135,135 +133,92 @@
   font-size: 1.5em;
   padding: 2%;
 }
-.tools {
-  color: #300e25;
-  font-size: 1.5em;
-  padding: 2%;
-}
-.gif {
-  padding-bottom: 1em;
-  width: 30vw;
-}
-/* @media screen and (max-width: 1078px) {
-  .projectLinks {
-    width: 15vw;
+@media screen and (max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+  .projectIntro {
+    width: 100%;
+    height: 10%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .cardTitle {
-    font-size: 4.5em;
-    margin: 0;
+    width: 100%;
+    font-size: 8em;
+    color: #f9f9f9;
+    margin: 0%;
+    text-align: center;
   }
-  .cardDes {
-    font-size: 1.2em;
-    padding: 0vh 8vw;
-  }
-  .tools {
-    margin: 0;
-  }
-}
-@media screen and (max-width: 750px) {
-  .projectLinks {
-    width: 20vw;
-  }
-  .cardTitle {
-    font-size: 3em;
-  }
-  .infoWrap {
-    padding-top: 2vw;
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 690px) {
-  .projectLinks {
-    width: 25vw;
-  }
-  .cardTitle {
-    font-size: 2.75em;
-  }
-  .tools {
-    margin: 0;
-  }
-  .cardDes {
-    font-size: 1.1em;
-  }
-}
-@media screen and (max-width: 575px) {
-  .cardTitle {
-    font-size: 2.5em;
-  }
-  .cardDes {
+  .buttons {
+    width: 45%;
+    align-self: flex-end;
     font-size: 1em;
   }
-}
-@media screen and (max-width: 465px) {
-  .cardTitle {
-    font-size: 2.25em;
+  .techWrap {
+    width: 85%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-}
-@media screen and (max-width: 450px) {
-  .cardTitle {
-    font-size: 2em;
+  .techTitle {
+    width: 90%;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    text-align: center;
   }
-  .cardDes {
-    padding: 1vh;
-    font-size: .9em;
+  .techListWrap {
+    width: 90%;
+    padding: 1%;
   }
-  .projectLinks {
-    width: 30vw;
-  }
-} */
-/* @media screen and (max-height: 665px) {
-  .projectLinks {
-    height: 2vw;
-  }
-  .cardTitle {
-    font-size: 3.5em;
-    margin: 0;
-  }
-  .cardDes {
-    padding: 0vh 6vw;
+  .tech {
+    width: 25%;
+    padding: .5%;
   }
   .infoWrap {
-    padding: 1vw 5vw;
+    border-left: none;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin: .5%;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .projectVideo {
+    margin: 0% 5% 5% 5%;
+  }
+  .projectDetails {
+    margin: 0% 5% 5% 5%;
+    height: auto;
+  }
+  .cardDes {
+    color: #300e25;
+    font-size: 1.5em;
+    padding: 2%;
   }
 }
-@media screen and (max-height: 500px) {
-  .projectLinks {
-    height: 1.5vw;
+@media screen and (max-width: 600px) {
+  .techWrap {
+    display: none;
+  }
+  .buttons {
+    width: 60%;
   }
   .cardTitle {
-    font-size: 3em;
-  }
-  .cardDes {
-    padding: 0vh 4vw;
-    font-size: 1em;
-  }
-  .infoWrap {
-    padding: 0vw 5vw;
+    font-size: 7em;
+    padding: 1%;
   }
 }
-@media screen and (max-height: 400px) {
-  .projectLinks {
-    height: 1.5vw;
+@media screen and (max-width: 425px) {
+  .buttons {
+    width: 80%;
   }
   .cardTitle {
-    font-size: 2.5em;
-  }
-  .cardDes {
-    padding: 0vh .25vw;
-    font-size: 1em;
-  }
-  .infoWrap {
-    padding: 0vw 5vw;
+    font-size: 5em;
+    padding: 1%;
   }
 }
-@media screen and (max-height: 375px) {
-  .tools {
-    margin: 0;
-  }
-}
-@media screen and (max-height: 330px) {
-  .cardDes {
-    padding: 0vh 0vw;
-    font-size: .75em;
-  }
-} */
