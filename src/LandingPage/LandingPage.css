@@ -2,6 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -12,6 +13,8 @@
 }
 .textTitles {
   height: 2.6em;
+  width: 90%;
+  padding: 1%;
 }
 .introduction {
   font-family: 'Habibi', serif;
@@ -50,4 +53,38 @@ button {
 button:hover {
   color: #9c5280;
   background-color: #f5f5f5;
+}
+@media screen and (max-width: 800px) {
+  .landingLogo {
+    width: 90%;
+  }
+  .textTitles {
+    height: 2.6em;
+  }
+  .introduction {
+    font-size: 1.5em;
+  }
+  #testAn10 {
+    font-size: 1.75em;
+  }
+}
+@media screen and (max-width: 425px) {
+  .landingLogo {
+    width: 95%;
+    padding: 2%;
+  }
+  .textTitles {
+    height: 2.6em;
+  }
+  .introduction {
+    font-size: 1.25em;
+  }
+  #testAn10 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 250px) {
+  .textTitles {
+    flex-grow: 1;
+  }
 }
