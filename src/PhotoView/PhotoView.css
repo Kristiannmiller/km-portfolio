@@ -1,51 +1,104 @@
-.photoLinks {
-  text-decoration: none;
-  font-size: 1em;
-  color: #f5f5f5;
-  background-color: #211e1c;
-  display: inline-block;
-  padding: 1vh;
+#photoLink {
+  margin-top: 10%;
+  align-self: center;
+}
+#photoCard {
+  height: auto;
+}
+#carousel {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0%;
+  height: 100%;
+}
+#carouselText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  padding: 8%;
+  margin: 5%;
   width: auto;
-  margin: 3vh;
-  height: 3vh;
-  border: 1px solid #f5f5f5;
-  border-radius: 5px;
+  padding: 0% 2%;
+  height: 55%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  overflow: scroll;
 }
-.photoLinks:hover {
-  color: #211e1c;
-  background-color: #f5f5f5;
+.carouselPhoto {
+  width: 90%;
+  height: auto;
 }
-.photoDes {
-  color: #f5f5f5;
-  font-size: 1.75em;
-  padding: 3vh 5vw;
-  shadow: 0px 0px 10px rgba(33, 30, 28, 0.70);
-  text-shadow: 0px 0px 5px #211e1c;
+.carouselContentWrap {
+  height: 55vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
-.photoCardTitle {
-  font-size: 5em;
-  color: #f5f5f5;
-  background-color: none;
-  margin: 1vh 1vh 0vh 1vh;
-  font-family:'Noto Sans SC', sans-serif;
-  text-shadow: 0px 0px 5px #211e1c;
+.backArrow {
+  font-size: 2.5em;
+  background-color: #9c5280;
+  color: #f8f8f8;
+  padding: 1% 1% 2% 1%;
+  margin-left: -2%;
+  margin-right: 2%;
+  height: 100%;
+  opacity: 80%;
+  align-self: center;
+  border-radius: 10px;
+}
+.forwardArrow {
+  font-size: 2.5em;
+  background-color: #9c5280;
+  color: #f8f8f8;
+  padding: 1% 1% 2% 1%;
+  margin-right: -2%;
+  margin-left: 2%;
+  height: 100%;
+  opacity: 80%;
+  align-self: center;
+  border-radius: 10px;
 }
 @media screen and (max-width: 1000px) {
-  .photoDes {
-    font-size: 1.5em;
+  #photoLink {
+    margin-top: 10%;
+    height: 3em;
+    width: 10em;
   }
 }
-@media screen and (max-width: 750px) {
-  .photoDes {
+@media screen and (max-width: 800px) {
+  #photoLink {
+    margin-top: 0%;
+    height: 1.2em;
+    width: 25em;
+  }
+}
+@media screen and (max-width: 600px) {
+  #carouselText {
     font-size: 1.25em;
   }
 }
-@media screen and (max-width: 550px) {
-  .photoDes {
-    padding: 1vh 5vw;
-    font-size: 1em;
+@media screen and (max-width: 425px) {
+  #photoLink {
+    margin-top: 2%;
+    width: 15em;
   }
-  .photoCardTitle {
-    font-size: 4em;
+  #carouselText {
+    font-size: 1.5em;
+    width: 100%;
+    height: 100%;
+  }
+  .carouselPhoto {
+    width: 90%;
+    height: auto;
+  }
+  .carouselContentWrap {
+    height: 40vh;
+  }
+  #carousel {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0%;
+    height: 100%;
   }
 }

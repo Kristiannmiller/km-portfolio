@@ -1,26 +1,37 @@
+.workWrap{
+  height: 100%;
+}
 .bigIntro {
+  font-family: 'Habibi', serif;
+  color: #9c5280;
   font-size: 5em;
-  margin: 1vw 0vw 2vw 0vw;
-  padding: 1vw 5vw 0vw 5vw;
-  color: #B64E3E;
+  margin: 2% 0% 2% 0%;
+  padding: 4% 5% 0% 5%;
+  height: 100%;
 }
 .introWrap {
-  height: 90vh;
+  font-size: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .scrollPrompt {
-  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
   margin: 0;
-  padding: 0vw 5vw 0vw 5vw;
+  padding: 5% 5% 0% 5%;
   color: #211e1c;
 }
 .bounce {
+  font-family: 'Raleway', sans-serif;
   margin: 5px;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
   animation: bounce 3.6s ease infinite;
   transform-origin: 50% 50%;
-  font-size: 2em;
-  padding: 0vw 5vw 5vw 5vw;
+  font-size: 3em;
+  padding: 0% 5% 5% 5%;
   color: #211e1c;
 }
 
@@ -50,61 +61,23 @@
     transform: translateY(0);
   }
 }
-@media screen and (max-width: 1296px) {
-  .bigIntro {
-    font-size: 3.5em;
-    margin-bottom: 1vh;
-    margin-top: 5vh;
-  }
-}
-@media screen and (max-width: 930px) {
-  .bigIntro {
-    font-size: 3em;
-  }
-}
-@media screen and (max-width: 700px) {
-  .bigIntro {
-    font-size: 2.5em;
-  }
-}
-/* @media screen and (max-height: 750px) {
-  .bigIntro {
-    font-size: 4.25em;
-  }
-}
-@media screen and (max-height: 660px) {
+@media screen and (max-width: 1000px) {
   .bigIntro {
     font-size: 4em;
   }
 }
-@media screen and (max-height: 560px) {
+@media screen and (max-width: 800px) {
+  .bigIntro {
+    font-size: 3.75em;
+  }
+}
+@media screen and (max-width: 600px) {
   .bigIntro {
     font-size: 3.5em;
   }
 }
-@media screen and (max-height: 500px) {
-  .bigIntro {
-    padding: .5vw 5vw 0vw 5vw;
-    margin-bottom: 1vw;
-  }
-  .scrollPrompt {
-    font-size: 1.5em;
-    padding: 0vw 5vw 0vw 5vw;
+@media screen and (max-width: 425px) {
+  .introWrap {
+    display: none;
   }
 }
-@media screen and (max-height: 425px) {
-  .bigIntro {
-    font-size: 3em;
-    padding: 0vw 5vw 0vw 5vw;
-    margin: 1vw 0vw;
-  }
-  .scrollPrompt {
-    font-size: 1.25em;
-    padding: 0vw 5vw 0vw 5vw;
-  }
-}
-@media screen and (max-height: 425px) {
-  .bigIntro {
-    font-size: 2.5em;
-  }
-} */

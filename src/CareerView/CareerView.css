@@ -1,275 +1,139 @@
+.careerCardIntro {
+  width: 35vw;
+  height: 75%;
+  display: flex;
+  float: right;
+  flex-direction: column;
+  padding: 2%;
+}
+.careerCardTitle {
+  text-align: right;
+  font-size: 7vw;
+  color: #f9f9f9;
+  margin: 5% 3% 0% 1%;
+  align-self: flex-start;
+  font-family: 'Habibi', serif;
+  text-shadow: 3px 3px 8px #300e25;
+}
+.quoteWrap {
+  text-align: left;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 5% 1%;
+  flex-direction: column;
+  border-left: 10px solid #300e25;
+  overflow: scroll;
+}
 .quoteText {
-  font-size: 1.75em;
-  color: #f5f5f5;
-  margin: 6vh;
-}
-
-.storyText {
-  font-size: 1.25rem;
-  color: #f5f5f5;
-  margin: 6vh;
-}
-.job {
-  width: 50vw;
-  height: 30vh;
-  margin: 0;
-  padding: 1vh 0vh;
-}
-.workTitle {
-  font-size: 3em;
-  color: #f5f5f5;
-  background-color: none;
-  margin: 1vh 1vh 3vh 1vh;
-  text-decoration: underline;
-  font-family:'Noto Sans SC', sans-serif;
-  text-shadow: 0px 0px 5px #211e1c;
-}
-.company {
-  color: #f5f5f5;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
-  padding: 0;
-  margin: 0
+  padding: 8%;
+  margin: 5%;
+  background-color: rgba(248, 248, 248, 0.80);
+  border: 2px solid #f5f5f5;
+  box-shadow: 1px 1px 20px #300e25;
+  width: auto;
+  height: 100%;
 }
 .jobWrap{
+  text-align: left;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 5% 1%;
+  border-left: 10px solid #300e25;
+  overflow: scroll;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.card {
-  display: block;
+.jobBox {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  padding: 5%;
+  margin: 5%;
+  background-color: rgba(248, 248, 248, 0.80);
+  border: 2px solid #f5f5f5;
+  box-shadow: 1px 1px 20px #300e25;
+  width: auto;
+  height: 100%;
 }
-
+.job {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+.company {
+  color: #300e25;
+  font-size: 2.5em;
+  padding-bottom: 1%;
+  margin: 0
+}
 .position {
-  color: #f5f5f5;
-  font-size: .75em;
-  padding: 0;
-  margin: .25em;
+  color: #300e25;
+  font-size: 1.5em;
+  padding-bottom: 1%;
 }
 .jobDes {
-  color: #f5f5f5;
-  font-size: 1em;
+  color: #300e25;
+  font-size: 1.25em;
   padding: 0vh 4vw;
 }
-#quoteCard {
+.storyText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  padding: 8%;
+  margin: 5%;
+  background-color: rgba(248, 248, 248, 0.80);
+  border: 2px solid #f5f5f5;
+  box-shadow: 1px 1px 20px #300e25;
+  width: auto;
+  height: 100%;
+}
+#careerCard {
   height: auto;
 }
 
-@media screen and (max-width: 1000px) {
-  .quoteText {
-    font-size: 1.5em;
-  }
-  .jobDes {
-    font-size: 1em;
-    margin-top: .5em;
-    padding: 0vh 1.5vw;
-  }
-  .job {
-    height: 33vh;
-  }
-  #whyTitle {
-    font-size: 4em;
-  }
-  .position {
-    margin: .1em;
-  }
-}
 @media screen and (max-width: 800px) {
-  .quoteText {
-    font-size: 1.25em;
+  .careerCardTitle {
+    font-size: 10vw;
+    margin-top: 5%;
+    align-self: center;
   }
-  .jobDes {
-    font-size: .75em;
+  .quoteWrap {
+    border-left: none;
   }
-  .company {
-    font-size: 1.5em;
-  }
-  #whyTitle {
-    font-size: 3.5em;
-  }
-}
-@media screen and (max-width: 630px) {
-  .jobWrap{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .job {
-    width: 100vw;
-    height: auto;
-    padding: 0vh;
-  }
-  .quoteText {
-    font-size: 1.1em;
-  }
-  .jobDes {
-    font-size: .75em;
-    margin-bottom: 1em;
-  }
-  .company {
-    font-size: 1em;
-  }
-  #whyTitle {
-    font-size: 3em;
-  }
-}
-@media screen and (max-width: 475px) {
-  #whyTitle {
-    font-size: 2.5em;
+  .jobWrap {
+    border-left: none;
   }
 }
 
-/* @media screen and (max-width: 930px) {
-  .vision {
-    font-size: 2.5em;
-  }
-  .visionTitle {
-    font-size: 4em;
-  }
-  .title {
-    font-size: 4em;
-  }
-  .about {
-    font-size: 1.75em;
+@media screen and (max-width: 600px) {
+  .careerCardTitle {
+    font-size: 12vw;
   }
 }
-@media screen and (max-width: 800px) {
-  .job {
-    width: 50vw;
-    height: 35vh;
-    padding: 1vh 0vh;
-  }
-  .title {
-    font-size: 3em;
-    margin-top: 4vh;
-    margin-bottom: 3vh;
-  }
-  .about {
-    font-size: 1.5em;
-  }
+
+@media screen and (max-width: 425px) {
   .company {
-    font-size: 1.5em;
-    padding: 0;
-    margin: 0
-  }
-  .jobDes {
-    font-size: 1em;
-    padding-top: .25vh;
-  }
-}
-@media screen and (max-width: 700px) {
-  .vision {
-    font-size: 2.25em;
-  }
-  .visionTitle {
-    font-size: 4em;
-  }
-  .job {
-    height: 40vh;
-    padding: .5vh 0vh;
-  }
-  .title {
-    font-size: 3em;
-    margin-top: 1vh;
-    margin-bottom: 1.25vh;
-    text-decoration: underline;
-  }
-}
-@media screen and (max-width: 625px) {
-  .vision {
+    text-align: center;
     font-size: 2em;
   }
-  .visionTitle {
-    font-size: 3em;
-  }
-  .job {
-    width: 100vw;
-    height: 20vh;
-    padding: 0vh;
-  }
-  .company {
-    font-size: 1em;
-    padding: 0;
-    margin: 0
-  }
-  .jobDes {
-    font-size: .75em;
-    padding-top: .25vh;
-  }
-  .jobWrap{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .about {
+  .position {
+    text-align: center;
     font-size: 1.25em;
-  }
-}
-@media screen and (max-height: 670px) {
-  .job {
-    width: 50vw;
-    height: 40vh;
-    padding: 0vh;
-  }
-  .title {
-    font-size: 3em;
-    margin-top: 1vh;
-    margin-bottom: 1.5vh;
-    text-decoration: underline;
-  }
-}
-@media screen and (max-height: 530px) {
-  .title {
-    margin-bottom: 2vh;
-  }
-  .company {
-    font-size: 1em;
-    padding: 0;
-    margin: 0
+    padding-bottom: 3%;
   }
   .jobDes {
-    font-size: .75em;
-    padding-top: .25vh;
+    font-size: 1em;
+    padding: 0% 4%;
   }
-}
-@media screen and (max-height: 450px) {
-  .vision {
-    font-size: 2.5em;
-  }
-  .visionTitle {
-    font-size: 4em;
-  }
-  .about {
+  .quoteText {
     font-size: 1.5em;
   }
-}
-@media screen and (max-height: 425px) {
-  .vision {
-    font-size: 2.25em;
-  }
-  .visionTitle {
-    font-size: 4em;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-  }
-  .about {
-    font-size: 1.5em;
-  }
-  .job {
-    width: 50vw;
-    height: 35vh;
-    overflow:scroll;
+  .storyText {
+    font-size: 1em;
   }
 }
-@media screen and (max-height: 325px) {
-  .vision {
-    font-size: 1.5em;
-  }
-  .visionTitle {
-    font-size: 4em;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-  }
-  .about {
-    font-size: 1.2em;
-  }
-} */
