@@ -10,9 +10,10 @@ const LandingPage = ({enterSite}) => {
     landingAnimation()
   })
   return (
+    <BrowserRouter>
     <section data-testid="landingWrap" className="landingWrap">
       <img title="Kristi Miller Logo" alt ="Kristi Miller logo script writing with plenty of swirls and embellishment" src={logo} className="landingLogo"/>
-        <section className="textTitles">
+        <section data-testid="landingAnimation" className="textTitles">
           <article data-testid="introduction" id="testAn1" className="introduction">
             Creatively Driven
           </article>
@@ -52,6 +53,7 @@ const LandingPage = ({enterSite}) => {
           </Route>
         </section>
     </section>
+    </BrowserRouter>
   )
 }
 export default LandingPage

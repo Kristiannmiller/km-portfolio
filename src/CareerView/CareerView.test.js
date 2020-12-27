@@ -54,7 +54,7 @@ describe('CareerView', () => {
       render (
         <CareerView />
       )
-      const theWhy = screen.getByText('Why Web Development?');
+      const theWhy = screen.getByText('Career Story');
       const whyText = screen.getByTestId('whyText');
       expect(theWhy).toBeInTheDocument();
       expect(whyText).toBeInTheDocument();

@@ -23,15 +23,6 @@ describe('ProjectView', () => {
       const projectTitle = screen.getByText(`${projects[0].name}`);
       expect(projectTitle).toBeInTheDocument();
     })
-    it('Should display a project status', () => {
-      render (
-        <ProjectCard
-        project={projects[0]}
-        />
-      )
-      const projectStatus = screen.getByText(`(${projects[0].status})`);
-      expect(projectStatus).toBeInTheDocument();
-    })
     it('Should display links to project repo and deployed site', () => {
       render (
         <ProjectCard
@@ -59,10 +50,10 @@ describe('ProjectView', () => {
     it('Should display a project description', () => {
       render (
         <ProjectCard
-        project={projects[0]}
+        project={projects[4]}
         />
       )
-      const projectDetails = screen.getByText(`${projects[0].long_des}`);
+      const projectDetails = screen.getByText(`${projects[4].long_des}`);
       expect(projectDetails).toBeInTheDocument();
     })
     it('Should display additional project information', () => {
@@ -71,10 +62,10 @@ describe('ProjectView', () => {
         project={projects[0]}
         />
       )
-      const projectTools = screen.getByText(`Tools :: ${projects[0].tools}`);
-      const projectChallenge = screen.getByText(`Challenge :: ${projects[0].challenge}`);
-      const projectPurpose = screen.getByText(`Purpose :: ${projects[0].purpose}`);
-      const projectTeam = screen.getByText(`Team :: ${projects[0].developers}`);
+      const projectTools = screen.getByText(`Tools and Tech`);
+      const projectChallenge = screen.getByText(`Styled Components`);
+      const projectPurpose = screen.getByText(`Express`);
+      const projectTeam = screen.getByTestId(`techWrap`);
       expect(projectTools).toBeInTheDocument();
       expect(projectChallenge).toBeInTheDocument();
       expect(projectPurpose).toBeInTheDocument();

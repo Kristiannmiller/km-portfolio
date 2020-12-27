@@ -9,9 +9,8 @@ const ProjectCard = ({ project }) => {
         <section className="infoWrap">
           <iframe className="projectVideo"
             src={project.video}
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
+            allowFullScreen>
           </iframe>
         </section>
 
@@ -27,9 +26,9 @@ const ProjectCard = ({ project }) => {
     }
   }
   const techList =
-    project.tools.map(tool => {
+    project.tools.map((tool, i) => {
       return (
-        <li className="tech">{tool}</li>
+        <li className="tech" key={i}>{tool}</li>
       )
     })
   return (
@@ -47,7 +46,7 @@ const ProjectCard = ({ project }) => {
           </section>
           <section className="techWrap">
             <h3 className="techTitle">Tools and Tech</h3>
-            <article className="techListWrap">
+            <article data-testid="techWrap" className="techListWrap">
               { techList }
             </article>
 
