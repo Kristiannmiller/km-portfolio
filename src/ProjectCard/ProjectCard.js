@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
         <section className="infoWrap">
           <iframe className="projectVideo"
             src={project.video}
+            title={`${project.title}Video`}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen>
           </iframe>

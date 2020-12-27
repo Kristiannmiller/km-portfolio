@@ -1,7 +1,7 @@
 import './LandingPage.css';
 import logo from '../AppAssets/namelogo.png';
 import React, {useEffect} from 'react';
-import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
+import {BrowserRouter, Route, NavLink} from 'react-router-dom';
 import { landingAnimation } from './LandingPageAnimation.js';
 
 

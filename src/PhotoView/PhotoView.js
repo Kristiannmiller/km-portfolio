@@ -73,45 +73,55 @@ class PhotoView extends Component {
       if(carousel === 'people') {
         if(this.state.peopleArrowCount === 1) {
           return (
-            <img className="carouselPhoto" src={people1}></img>
+            <img className="carouselPhoto" src={people1}
+            alt="A man celebrates Carnival in Ollantaytambo, Peru as his wife decorates his face with colorful chalk"></img>
           )
         } else if (this.state.peopleArrowCount === 3) {
           return (
-            <img className="carouselPhoto" src={people3}></img>
+            <img className="carouselPhoto" src={people3}
+            alt="A woman cuddles in close to her newborn daughter"></img>
           )
         } else if (this.state.peopleArrowCount === 5) {
           return (
-            <img className="carouselPhoto" src={people5}></img>
+            <img className="carouselPhoto" src={people5}
+            alt="Damian Kulash of the band OK GO steps into the crowd to sing during a show at Denver's Bluebird Theater"></img>
           )
         } else if (this.state.peopleArrowCount === 7) {
           return (
-            <img className="carouselPhoto" src={people7}></img>
+            <img className="carouselPhoto" src={people7}
+            alt="A young girl covered in dirt with a determined expression gets ready to hunt for Easter Eggs at Wellington, Colorado's annual Easter Egg Hunt"></img>
           )
         } else if (this.state.peopleArrowCount === 9) {
           return (
-            <img className="carouselPhoto" src={people9}></img>
+            <img className="carouselPhoto" src={people9}
+            alt="Fellow players and coaches gather around a softball player who was knocked out cold after a collision with an opposing player on her way to first base"></img>
           )
         }
       } else {
         if(this.state.productArrowCount === 1) {
           return (
-            <img className="carouselPhoto" src={product1}></img>
+            <img className="carouselPhoto" src={product1}
+            alt="A chef sprinkles her homemade seasoning on some chicken breasts"></img>
           )
         } else if (this.state.productArrowCount === 3) {
           return (
-            <img className="carouselPhoto" src={product3}></img>
+            <img className="carouselPhoto" src={product3}
+            alt="A gorgeous peachy bouquet of spring flowers in a gold pot with a peach resting next to it"></img>
           )
         } else if (this.state.productArrowCount === 5) {
           return (
-            <img className="carouselPhoto" src={product5}></img>
+            <img className="carouselPhoto" src={product5}
+            alt="A homemade 1920's style masonry hat with rhinestones"></img>
           )
         } else if (this.state.productArrowCount === 7) {
           return (
-            <img className="carouselPhoto" src={product7}></img>
+            <img className="carouselPhoto" src={product7}
+            alt="A spooky black cocktail in a martini glass on top of a wine barrel with black licourice garnish for Halloween. Another green martini in the background."></img>
           )
         } else if (this.state.productArrowCount === 9) {
           return (
-            <img className="carouselPhoto" src={product9}></img>
+            <img className="carouselPhoto" src={product9}
+            alt="Dry pasta swirled around a pot of boiling water. In the center of the pasta is a pile of ingredients including diced onions, tomatoes, and seasoning. Preparing to be cooked as a one-pot-meal"></img>
           )
         }
       }
