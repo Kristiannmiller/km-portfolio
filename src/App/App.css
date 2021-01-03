@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
   height: 3.5rem;
   margin: 6%;
 }
+.logo:hover{
+  height: 3.6rem;
+  margin-top: 0%;
+}
 .smLogo {
   display: none;
 }
@@ -52,7 +56,6 @@ footer {
   display: flex;
   position: fixed;
   bottom: 0;
-  opacity: 70%;
 }
 .footerWrap {
   width: 10%;
@@ -63,13 +66,16 @@ footer {
   height: auto;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  opacity: 70%;
   text-align: center;
   align-items: flex-end;
 }
-.footerWrap .socialLogo {
+.socialLogo {
   padding: 5px;
   height: 40px;
+  opacity: 50%;
+}
+.socialLogo:hover {
+  opacity: 200%;
 }
 .nav {
   padding: 2%;
