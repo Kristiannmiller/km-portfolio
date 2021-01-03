@@ -47,7 +47,7 @@ const LandingPage = ({enterSite}) => {
         </section>
         <section className="buttonWrap">
           <Route>
-            <NavLink title="Navigate to Home page" id="workNav" className="nav" activeClassName="activeNav" to="/projects">
+            <NavLink title="Navigate to Home page" id="workNav" className="nav" to="/projects">
               <button className="enter" onClick={() => enterSite()}>enter</button>
             </NavLink>
           </Route>

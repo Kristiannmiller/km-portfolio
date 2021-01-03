@@ -1,6 +1,7 @@
 import './CareerView.css';
 import record from '../AppAssets/record.jpg'
 import bear from '../AppAssets/bear.JPG'
+import union from '../AppAssets/union.JPG'
 import React from 'react';
 
 const CareerView = () => {
@@ -23,7 +24,7 @@ const CareerView = () => {
         </section>
         </article>
       </section>
-      <section className="cardWrap">
+      <section className="cardWrap" style={{backgroundImage: 'url(' + union + ')' }}>
         <article className="card" id="careerCard">
         <h1 className="careerCardTitle">Work History</h1>
           <article data-testid="jobWrap" className="jobWrap">
