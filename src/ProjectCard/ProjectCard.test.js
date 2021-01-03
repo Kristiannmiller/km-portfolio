@@ -47,15 +47,6 @@ describe('ProjectView', () => {
       expect(projectRepo).toHaveAttribute('href', `${projects[0].repo}`);
       expect(projectDeploy).toHaveAttribute('href', `${projects[0].deploy}`);
     })
-    it('Should display a project description', () => {
-      render (
-        <ProjectCard
-        project={projects[4]}
-        />
-      )
-      const projectDetails = screen.getByText(`${projects[4].long_des}`);
-      expect(projectDetails).toBeInTheDocument();
-    })
     it('Should display additional project information', () => {
       render (
         <ProjectCard
