@@ -25,11 +25,12 @@
   overflow: scroll;
 }
 .carouselPhoto {
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 .carouselContentWrap {
   height: 55vh;
+  width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -46,6 +47,14 @@
   opacity: 80%;
   align-self: center;
   border-radius: 10px;
+}
+.backArrow:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+.forwardArrow:hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 .forwardArrow {
   font-size: 2.5em;
