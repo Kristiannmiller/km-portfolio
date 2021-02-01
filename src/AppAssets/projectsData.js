@@ -1,5 +1,20 @@
 const projects = [
   {
+  name: "Matri Mania",
+  repo: "https://github.com/Matrimania",
+  deploy: "https://matrimania-client.herokuapp.com/",
+  status: "Work In Progress",
+  tools: ['TypeScript', 'React Hooks', 'HTML5', 'React', 'React Router', 'Jest', 'day.js', 'CSS3', 'CSS Animations', 'Styled Components', 'Adobe Photoshop', 'OOP'],
+  challenge: "Create a React application utilizing TypeScript and React Hooks for the first time",
+  purpose: "Turing School of Software and Design Module 4 Final Project",
+  developers: "Kristi Miller, Hanna Kim, Eric Berglund, Tyler Fields, Norma Lopez",
+  short_des: "A wedding group photography application",
+  long_des: "Matrimania is a multi-page React application designed to remove the mania of capturing memories of wedding celebrations. A vendor (wedding photographer) can organize their upcoming photoshoots, request necessary information from their clients, and access an easy-to-read carousel view of photos they must take during the special day.",
+  photo: "https://github.com/Matrimania/matrimania-client/raw/main/src/assets/matrimania-dashboard.png",
+  gif: "https://github.com/Matrimania/matrimania-client/raw/main/src/assets/WalkThrough.gif",
+  video: "https://www.youtube.com/embed/u7SW7DxhqG8"
+  },
+  {
   name: "Rume",
   repo: "https://github.com/nathanielmillard/rume",
   deploy: "https://rume-app.herokuapp.com/",
