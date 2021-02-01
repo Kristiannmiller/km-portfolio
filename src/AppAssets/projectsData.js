@@ -86,7 +86,8 @@ const projects = [
   short_des: "A portfolio site",
   long_des: "Surprise! This portfolio is also a current project that is constantly being updated. My goal with this site is to provide future/potential employers and contacts with up-to-date samples of my work and career aspirations. With UI/UX as a main focus, I built this app with React and kept the codebase relatively simple in order to be able to update quickly when needed without worrying about breaking changes. The site itself is a reflection of my personality and style. Feel free to contact me if anything on this site needs attention (sometimes we all need a little extra attention).",
   photo: "https://raw.githubusercontent.com/Kristiannmiller/km-portfolio/main/ReadmeAssets/Wireframe.png",
-  gif: "https://raw.githubusercontent.com/Kristiannmiller/km-portfolio/main/ReadmeAssets/Intro.gif"
+  gif: "https://raw.githubusercontent.com/Kristiannmiller/km-portfolio/main/ReadmeAssets/Intro.gif",
+  video: "https://www.youtube.com/embed/5GJ5-tPLExE"
 }
 ]
 export default projects

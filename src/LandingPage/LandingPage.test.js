@@ -21,18 +21,16 @@ describe('LandingPage', () => {
       expect(landingWrap).toBeInTheDocument();
       expect(logo).toBeInTheDocument();
     })
-    it('Should display and introduction and instructions', () => {
+    it('Should display an animation', () => {
       render (
         <LandingPage />
       )
       const landingWrap = screen.getByTestId('landingWrap')
       const logo = screen.getByAltText('Kristi Miller logo script writing with plenty of swirls and embellishment')
-      const introduction = screen.getByTestId('introduction')
-      const instructions = screen.getByTestId('instructions')
+      const introduction = screen.getByTestId('landingAnimation')
       expect(landingWrap).toBeInTheDocument();
       expect(logo).toBeInTheDocument();
       expect(introduction).toBeInTheDocument();
-      expect(instructions).toBeInTheDocument();
     })
 
   })

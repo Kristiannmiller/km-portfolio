@@ -1,7 +1,7 @@
 import './LandingPage.css';
 import logo from '../AppAssets/namelogo.png';
 import React, {useEffect} from 'react';
-import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
+import {BrowserRouter, Route, NavLink} from 'react-router-dom';
 import { landingAnimation } from './LandingPageAnimation.js';
 
 
@@ -10,9 +10,10 @@ const LandingPage = ({enterSite}) => {
     landingAnimation()
   })
   return (
+    <BrowserRouter>
     <section data-testid="landingWrap" className="landingWrap">
       <img title="Kristi Miller Logo" alt ="Kristi Miller logo script writing with plenty of swirls and embellishment" src={logo} className="landingLogo"/>
-        <section className="textTitles">
+        <section data-testid="landingAnimation" className="textTitles">
           <article data-testid="introduction" id="testAn1" className="introduction">
             Creatively Driven
           </article>
@@ -46,12 +47,13 @@ const LandingPage = ({enterSite}) => {
         </section>
         <section className="buttonWrap">
           <Route>
-            <NavLink title="Navigate to Home page" id="workNav" className="nav" activeClassName="activeNav" to="/projects">
+            <NavLink title="Navigate to Home page" id="workNav" className="nav" to="/projects">
               <button className="enter" onClick={() => enterSite()}>enter</button>
             </NavLink>
           </Route>
         </section>
     </section>
+    </BrowserRouter>
   )
 }
 export default LandingPage

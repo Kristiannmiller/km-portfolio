@@ -12,15 +12,6 @@ describe('ContactView', () => {
       const contactWrap = screen.getByTestId('contactWrap')
       expect(contactWrap).toBeInTheDocument();
     })
-    it('Should display a headshot', () => {
-      render (
-        <ContactView />
-      )
-      const contactWrap = screen.getByTestId('contactWrap')
-      const headshot = screen.getByAltText('Kristi Miller with pixie short, rose gold hair and round glasses with greenery in the background')
-      expect(contactWrap).toBeInTheDocument();
-      expect(headshot).toBeInTheDocument();
-    })
     it('Should display a heading', () => {
       render (
         <ContactView />
