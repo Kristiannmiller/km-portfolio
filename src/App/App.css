@@ -31,10 +31,10 @@ footer, header, hgroup, menu, nav, section {
   height: 3.5rem;
   margin: 6%;
 }
-.logo:hover{
+/* .logo:hover{
   height: 3.6rem;
   margin-top: 0%;
-}
+} */
 .smLogo {
   display: none;
 }
