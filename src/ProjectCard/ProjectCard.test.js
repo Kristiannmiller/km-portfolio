@@ -55,11 +55,9 @@ describe('ProjectView', () => {
       )
       const projectTools = screen.getByText(`Tools and Tech`);
       const projectChallenge = screen.getByText(`Styled Components`);
-      const projectPurpose = screen.getByText(`Express`);
       const projectTeam = screen.getByTestId(`techWrap`);
       expect(projectTools).toBeInTheDocument();
       expect(projectChallenge).toBeInTheDocument();
-      expect(projectPurpose).toBeInTheDocument();
       expect(projectTeam).toBeInTheDocument();
     })
   })
