@@ -10,7 +10,7 @@ const projects = [
   developers: "Kristi Miller, Hanna Kim, Eric Berglund, Tyler Fields, Norma Lopez",
   short_des: "A wedding group photography application",
   long_des: "Matrimania is a multi-page React application designed to remove the mania of capturing memories of wedding celebrations. A vendor (wedding photographer) can organize their upcoming photoshoots, request necessary information from their clients, and access an easy-to-read carousel view of photos they must take during the special day.",
-  photo: "https://github.com/Matrimania/matrimania-client/raw/main/src/assets/matrimania-dashboard.png",
+  photo: "https://raw.githubusercontent.com/Matrimania/matrimania-client/main/src/assets/matrimania-wireframe.png",
   gif: "https://github.com/Matrimania/matrimania-client/raw/main/src/assets/WalkThrough.gif",
   video: "https://www.youtube.com/embed/u7SW7DxhqG8"
   },
