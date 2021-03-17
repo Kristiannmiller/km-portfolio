@@ -3,6 +3,7 @@ import gsap from 'gsap'
 export const landingAnimation = () => {
   let logoTimeline = gsap.timeline();
   logoTimeline.to('.landingLogo', {duration: 3, ease: "power2", opacity: "50%"})
+  .to('.enter', {duration: 1, opacity: '75%', display: 'inline-block'})
   rapidText()
 }
 function rapidText() {
