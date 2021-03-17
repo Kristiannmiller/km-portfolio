@@ -21,6 +21,9 @@ class PhotoView extends Component {
       productArrowCount: 0
     }
   }
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   handleCarouselClick = (event) => {
     if(event.target.id === "people") {
       if(event.target.className === "backArrow") {

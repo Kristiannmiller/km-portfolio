@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import PhotoView from './PhotoView';
+window.scrollTo = jest.fn();
 
 
 describe('PhotoView', () => {

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import projects from '../AppAssets/projectsData.js';
 import WorkView from './WorkView';
+window.scrollTo = jest.fn();
 
 
 describe('WorkView', () => {

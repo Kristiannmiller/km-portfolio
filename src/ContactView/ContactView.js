@@ -1,5 +1,5 @@
 import './ContactView.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import headshot from '../AppAssets/headshot.jpg'
 import vertHeadshot from '../AppAssets/headshot_SQ.jpg'
 
@@ -7,6 +7,10 @@ import vertHeadshot from '../AppAssets/headshot_SQ.jpg'
 
 
 const ContactView = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section data-testid="contactWrap" className="contactWrap">
       <section className="headshotWrap">
