@@ -1,7 +1,9 @@
 import gsap from 'gsap'
 
 export const landingAnimation = () => {
-  gsap.to('.landingLogo', {duration: 3, ease: "power2", opacity: "50%"})
+  let logoTimeline = gsap.timeline();
+  logoTimeline.to('.landingLogo', {duration: 3, ease: "power2", opacity: "50%"})
+  .to('.enter', {duration: 1, opacity: '75%', display: 'inline-block'})
   rapidText()
 }
 function rapidText() {
@@ -23,6 +25,10 @@ function rapidText() {
   })
   .to('.enter', {
     duration: 1,
-    display: 'inline-block'
+    ease: "power2",
+    display: 'inline-block',
+    backgroundColor: '#9c5280',
+    color: '#f5f5f5',
+    opacity: '100%'
   })
 }
