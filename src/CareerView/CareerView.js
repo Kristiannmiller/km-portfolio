@@ -2,9 +2,13 @@ import './CareerView.css';
 import record from '../AppAssets/record.jpg'
 import bear from '../AppAssets/bear.JPG'
 import union from '../AppAssets/union.JPG'
-import React from 'react';
+import React, {useEffect} from 'react';
 
 const CareerView = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <section data-testid="careerWrap" className="workWrap">
       <article className="introWrap">
