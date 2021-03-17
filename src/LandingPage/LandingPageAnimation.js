@@ -1,7 +1,8 @@
 import gsap from 'gsap'
 
 export const landingAnimation = () => {
-  gsap.to('.landingLogo', {duration: 3, ease: "power2", opacity: "50%"})
+  let logoTimeline = gsap.timeline();
+  logoTimeline.to('.landingLogo', {duration: 3, ease: "power2", opacity: "50%"})
   rapidText()
 }
 function rapidText() {
