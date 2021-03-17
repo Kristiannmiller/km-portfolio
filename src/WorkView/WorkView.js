@@ -1,9 +1,14 @@
 import './WorkView.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard.js'
 import projects from '../AppAssets/projectsData.js'
 
 const WorkView = () => {
+
+  useEffect(() => {
+  window.scrollTo(0, 0)
+  }, [])
+
   const projectCards = projects.map((app, i) => {
     return (
       <ProjectCard
