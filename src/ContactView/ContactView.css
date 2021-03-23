@@ -74,6 +74,11 @@
   justify-content: center;
   margin: 2%;
 }
+.download:hover {
+  color: #f5f5f5;
+  background-color: #9c5280;
+  opacity: 100%;
+}
 .vertHeadshotWrap {
   display: none;
 }
