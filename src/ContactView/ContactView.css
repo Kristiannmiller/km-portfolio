@@ -61,6 +61,19 @@
 .email:hover {
   text-decoration: underline;
 }
+.download {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1.5%;
+  border: 1px double #9c5280;
+  color: #9c5280;
+  align-self: center;
+  width: auto;
+  justify-content: center;
+  margin: 2%;
+}
 .vertHeadshotWrap {
   display: none;
 }
