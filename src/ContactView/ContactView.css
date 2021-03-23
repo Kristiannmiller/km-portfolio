@@ -58,6 +58,9 @@
   padding-top: 2%;
   color: #9c5280;
 }
+.email:hover {
+  text-decoration: underline;
+}
 .vertHeadshotWrap {
   display: none;
 }
