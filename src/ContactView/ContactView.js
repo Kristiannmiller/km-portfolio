@@ -2,6 +2,7 @@ import './ContactView.css';
 import React, {useEffect} from 'react';
 import headshot from '../AppAssets/headshot.jpg'
 import vertHeadshot from '../AppAssets/headshot_SQ.jpg'
+import resume from '../AppAssets/Resume.pdf'
 
 
 
@@ -27,6 +28,7 @@ const ContactView = () => {
         <a href="mailto:kristi.ann.miller@gmail.com">
         <h2 className="email">kristi.ann.miller@gmail.com</h2>
         </a>
+        <a className="download" href={resume} download="KristiMiller_Resume.pdf">Download My Resume</a>
       </article>
     </section>
   )
